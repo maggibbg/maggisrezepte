@@ -1,19 +1,5 @@
 {
-  "title": "Beef und Brokkoli",
-  "date": "2022-08-14T15:18:58+00:00",
-  "description": "",
-  "category": "Kochen",
-  "subcategory": "Hauptgerichte",
-  "details": {
-    "prep_time": "",
-    "cook_time": "",
-    "total_time": ""
-  },
-  "time": "",
-  "servings": "",
-  "difficulty": "Einfach",
-  "image": "https://maggisrezepte.de/wp-content/uploads/2022/08/IMG_6841-scaled-e1660493116941.jpg",
-  "image_alt": "Beef und Brokkoli",
+  "notes": "",
   "ingredients": [
     "2 Rumpsteaks (etwa 400 Gramm)",
     "1 Brokkoli",
@@ -36,6 +22,13 @@
     "2,5 Esslöffel brauner Zucker",
     "4 Teelöffel Stärke"
   ],
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "image_alt": "Beef und Brokkoli",
+  "servings": "2 Portionen",
   "steps": [
     "Rumpsteak dritteln und anschließend die Stücke gegen die Faser in dünne Streifen schneiden. Alle Zutaten der Marinade mit dem Fleisch vermengen. Die Marinade sollte sich wie Wachs um das Fleisch legen. Falls die Marinade zu dünnflüssig ist, mehr Stärke hinzugeben. Anschließend im Kühlschrank ziehen lassen",
     "Alle Zutaten der Soße mit einem Schneebesen verrühren und zur Seite stellen",
@@ -43,7 +36,14 @@
     "Das marinierte Fleisch in reichlich neutralem Öl bei starker Hitze von beiden Seiten anbraten. Zwiebeln, geriebenen Knoblauch, geriebenen Ingwer sowie Chili hinzugeben ebenfalls anbraten. Anschließend den Brokkoli hinzugeben und ebenfalls kurz braten. Zuletzt die Soße dazugeben und kurz aufkochen lassen",
     "Die Soße eignet sich auch für andere Asia Gerichte Mit Reis servieren"
   ],
-  "notes": "",
+  "time": "30 Min.",
+  "date": "2022-08-14T15:18:58+00:00",
+  "title": "Beef und Brokkoli",
   "tags": [],
-  "seo_description": ""
+  "seo_description": "",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/08/IMG_6841-scaled-e1660493116941.jpg",
+  "difficulty": "Einfach",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Hauptgerichte"
 }

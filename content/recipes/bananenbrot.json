@@ -1,19 +1,5 @@
 {
-  "title": "Bananenbrot",
-  "date": "2022-07-08T16:07:04+00:00",
-  "description": "",
-  "category": "Backen",
-  "subcategory": "Süß",
-  "details": {
-    "prep_time": "",
-    "cook_time": "",
-    "total_time": ""
-  },
-  "time": "",
-  "servings": "",
-  "difficulty": "Einfach",
-  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
-  "image_alt": "Bananenbrot",
+  "notes": "",
   "ingredients": [
     "3 Bananen, sehr reif (etwa 300 Gramm ohne Schale)",
     "120 Gramm Butter",
@@ -24,6 +10,13 @@
     "1 Teelöffel Vanilleextrakt",
     "2 Eier"
   ],
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "image_alt": "Bananenbrot",
+  "servings": "1 Kuchen",
   "steps": [
     "Backofen bei 175 °C Ober- und Unterhitze vorheizen",
     "Bananen pürieren. Weiche Butter, Zucker, Vanilleextrakt und eine Prise Salz schaumig rühren und anschließend die Eier einzeln unterrühren",
@@ -31,7 +24,14 @@
     "Teig in eine gefettete, rechteckige Backform füllen und für etwa 55 - 60 Minuten backen",
     "Beim backen darauf achten, dass das Brot nicht zu dunkel wird. Ggf. mit Alufolie abdecken Das Bananenbrot bleibt sehr lange saftig"
   ],
-  "notes": "",
+  "time": "30 Min.",
+  "date": "2022-07-08T16:07:04+00:00",
+  "title": "Bananenbrot",
   "tags": [],
-  "seo_description": ""
+  "seo_description": "",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "difficulty": "Einfach",
+  "description": "",
+  "category": "Backen",
+  "subcategory": "Süß"
 }

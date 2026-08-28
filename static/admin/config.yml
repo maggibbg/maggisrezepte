@@ -1,0 +1,75 @@
+backend:
+  name: github
+  repo: maggibbg/maggisrezepte
+  branch: main
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+site_url: "https://illustrious-platypus-858143.netlify.app"
+display_url: "https://illustrious-platypus-858143.netlify.app"
+logo_url: "/images/rezept-demo.png"
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+  - name: "recipes"
+    label: "Rezepte"
+    label_singular: "Rezept"
+    folder: "content/recipes"
+    create: true
+    delete: true
+    extension: "json"
+    format: "json"
+    identifier_field: "title"
+    slug: "{{slug}}"
+    summary: "{{title}} – {{category}} / {{subcategory}}"
+    sortable_fields: ["title", "date", "category", "subcategory"]
+    view_filters:
+      - label: "Kochen"
+        field: "category"
+        pattern: "Kochen"
+      - label: "Backen"
+        field: "category"
+        pattern: "Backen"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Veröffentlicht am", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm" }
+      - label: "Kategorie"
+        name: "category"
+        widget: "select"
+        options: ["Kochen", "Backen"]
+      - label: "Unterkategorie"
+        name: "subcategory"
+        widget: "select"
+        options:
+          - "Hauptgerichte"
+          - "Pasta & Pizza"
+          - "Salate"
+          - "Beilagen"
+          - "Saucen & Dips"
+          - "Snacks"
+          - "Süß"
+          - "Herzhaft"
+      - { label: "Zubereitungszeit", name: "time", widget: "string", hint: "z. B. 30 Min." }
+      - { label: "Portionen / Menge", name: "servings", widget: "string", hint: "z. B. 4 Portionen oder 1 Brot" }
+      - label: "Schwierigkeit"
+        name: "difficulty"
+        widget: "select"
+        options: ["Einfach", "Mittel", "Anspruchsvoll"]
+      - { label: "Rezeptbild", name: "image", widget: "image", required: false }
+      - label: "Zutaten"
+        name: "ingredients"
+        widget: "list"
+        allow_add: true
+        collapsed: false
+        field: { label: "Zutat", name: "item", widget: "string" }
+      - label: "Zubereitung"
+        name: "steps"
+        widget: "list"
+        allow_add: true
+        collapsed: false
+        field: { label: "Schritt", name: "item", widget: "text" }
+      - { label: "Notizen (optional)", name: "notes", widget: "text", required: false }

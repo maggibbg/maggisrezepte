@@ -1,0 +1,26 @@
+{
+  "title": "One Pot Pasta mit Spinat",
+  "date": "2026-08-27T10:00:00.000Z",
+  "category": "Kochen",
+  "subcategory": "Pasta & Pizza",
+  "time": "25 Min.",
+  "servings": "4 Portionen",
+  "difficulty": "Einfach",
+  "image": "/images/rezept-demo.png",
+  "ingredients": [
+    "400 g Pasta",
+    "250 g Blattspinat",
+    "1 Zwiebel",
+    "2 Knoblauchzehen",
+    "700 ml Gemüsebrühe",
+    "150 ml Sahne",
+    "Salz & Pfeffer"
+  ],
+  "steps": [
+    "Zwiebel und Knoblauch hacken.",
+    "Alle Zutaten bis auf den Spinat in einen großen Topf geben.",
+    "Unter regelmäßigem Rühren garen.",
+    "Spinat zum Schluss unterheben und abschmecken."
+  ],
+  "notes": ""
+}

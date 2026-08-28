@@ -1,0 +1,23 @@
+{
+  "title": "Einfaches Landbrot",
+  "date": "2026-08-24T10:00:00.000Z",
+  "category": "Backen",
+  "subcategory": "Herzhaft",
+  "time": "3 Std.",
+  "servings": "1 Brot",
+  "difficulty": "Mittel",
+  "image": "/images/rezept-demo.png",
+  "ingredients": [
+    "500 g Weizenmehl",
+    "350 ml Wasser",
+    "10 g Salz",
+    "5 g Trockenhefe"
+  ],
+  "steps": [
+    "Zutaten zu einem Teig verkneten.",
+    "Abgedeckt gehen lassen.",
+    "Teig formen und nochmals ruhen lassen.",
+    "Bei hoher Temperatur knusprig backen."
+  ],
+  "notes": ""
+}

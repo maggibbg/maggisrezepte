@@ -1,0 +1,36 @@
+{
+  "title": "Ofen-Pommes",
+  "date": "2022-06-21T17:42:30+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Beilagen",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Ofen-Pommes",
+  "ingredients": [
+    "1 Kilogramm Kartoffeln (festkochend)",
+    "2 Esslöffel Öl (Pflanzenöl, neutral)",
+    "2 Esslöffel Reismehl (alternativ Speisestärke)",
+    "2 Teelöffel Salz"
+  ],
+  "steps": [
+    "Backofen bei 240 °C Ober- und Unterhitze vorheizen",
+    "Kartoffeln schälen und in 1 Zentimeter lange Stifte schneiden. Anschließend die Stifte unter fließendem Wasser abspülen (hierbei wird die Stärke der Kartoffel entfernt)",
+    "Kartoffelstifte in eine große Schüssel geben und mit kochendem Wasser übergießen",
+    "Das Wasser nach 10 Minuten abgießen und die Kartoffeln zwischen zwei sauberen Küchentüchern trocken tupfen",
+    "Kartoffeln zurück in eine Schüssel und mit Salz, Öl und Reismehl vermengen",
+    "Die Kartoffelstifte auf einem Backblech mit Backpapier verteilen, sodass die Stifte nicht übereinander liegen",
+    "Die Kartoffeln für 45 Minuten im Backofen goldbraun backen. Nach 30 Minuten die Kartoffeln einmal wenden",
+    "Es können weitere Gewürze hinzugegen werden (z.B. Paprikapulver)"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

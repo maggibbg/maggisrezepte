@@ -1,0 +1,40 @@
+{
+  "title": "Frittata",
+  "date": "2022-06-29T16:57:44+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Snacks",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/IMG_6306-scaled-e1656524501109.jpg",
+  "image_alt": "Frittata",
+  "ingredients": [
+    "6 Eier",
+    "150 Milliliter Sahne alternativ: Creme Fraiche, Schmand, Saure Sahne, Frischkäse, Milch",
+    "100 Gramm geriebener Käse",
+    "1 Zucchini",
+    "2 Lauchzwiebel",
+    "1 Paprika",
+    "1 Zwiebel",
+    "1 Chili",
+    "1 große Tomate",
+    "2 Zehen Knoblauch alternativ: 2 Esslöffel Knoblauchöl",
+    "Kräuter",
+    "Salz, Pfeffer"
+  ],
+  "steps": [
+    "Eier und Sahne verquirlen und kräftig mit Salz und Pfeffer würzen",
+    "Gemüse waschen und in kleine Würfel schneiden. Das Gemüse in einer Ofenfesten Pfanne mit hoher Hitze anbraten. Zuletzt die Tomaten und Kräuter hinzugeben und nochmals braten",
+    "Die Ei-Masse in die Pfanne geben und kurz verrühren, sodass sich die Masse mit dem Gemüse vermischt und eine glatte Oberfläche entsteht. Käse darüber streuen und im vorgeheizten Ofen (160 °C Ober- und Unterhitze) etwa 15-20 Minuten backen, bis der Käse goldbraun ist.",
+    "Das Gemüse, die Kräuter und die Gewürze können beliebig verändert werden Falls keine Ofenfeste Pfanne vorhanden ist, kann ebenfalls eine mit Olivenöl gefettete Auflaufform verwendet werden"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

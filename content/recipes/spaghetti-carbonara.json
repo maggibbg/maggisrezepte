@@ -1,0 +1,36 @@
+{
+  "title": "Spaghetti Carbonara",
+  "date": "2022-06-28T15:16:51+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Pasta & Pizza",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/08/IMG_6768-scaled-e1659979627599.jpg",
+  "image_alt": "Spaghetti Carbonara",
+  "ingredients": [
+    "250 Gramm Spaghetti",
+    "200 Gramm Guanciale oder Bauchspeck",
+    "50 Gramm Pecorina",
+    "50 Gramm Parmesan",
+    "5 Eigelb",
+    "Pfeffer"
+  ],
+  "steps": [
+    "Schwarte vom Speck entfernen und den Speck in grobe Würfel schneiden. Die Würfel ohne weiteres Fett in der Pfanne auslassen. Sobald der Speck im eigenen Fett frittiert, die Hitze so niedrig wie möglich drehen. Den Speck langsam auslassen, bis der Speck kross und das Fett zum Großteil ausgetreten ist. Danach kann der Speck bei Seite gestellt werden",
+    "Währenddessen Wasser aufstellen, ordentlich Salzen und zum kochen bringen. Außerdem die Eier trennen und ggf. den Käse reiben",
+    "Eigelb und geriebenen Käse in einem Glas- oder Edelstahlgefäß zu einer glatten Soße vermischen",
+    "Spaghetti etwa 1 Minute bevor sie aldente sind vom Wasser direkt in die Soße geben. Ebenfalls eine kleine Kelle Pastawasser dazugeben und über einem Wasserbad (z.B. dem restlichen Nudelwasser) vermengen, bis die gewünschte \"schlotzige\" Konsistenz erreicht ist",
+    "Masse vom Wasserbad nehmen, das Fett und den Speck hinzugeben und mit ordentlich Pfeffer würzen",
+    "Wichtig: Sobald die Nudeln zur Soße gegeben wurden immer Rühren, da sonst das Ei gerinnt Je feiner der Käse gerieben wurde, desto besser kann er sich mit dem Eigelb verbinden"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Pfannkuchen",
+  "date": "2022-06-29T13:42:27+00:00",
+  "description": "",
+  "category": "Backen",
+  "subcategory": "Süß",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Pfannkuchen",
+  "ingredients": [
+    "4 Eier",
+    "4 Esslöffel Zucker",
+    "1 Prise Salz",
+    "2 Packung Vanillezucker",
+    "160 Gramm Mehl",
+    "300 Milliliter Milch",
+    "Butterschmalz"
+  ],
+  "steps": [
+    "Eier, Zucker, Vanillezucker und Salz schaumig schlagen. Gesiebtes Mehl unterrühren und anschließend die Milch während des rührens einfließen lassen",
+    "Pfannkuchenteig im heißen Butterschmalz goldgelb backen"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Krautsalat",
+  "date": "2022-06-14T11:42:39+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Salate",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/09/IMG_7071-scaled.jpg",
+  "image_alt": "Krautsalat",
+  "ingredients": [
+    "1 Weißkohl",
+    "2 Zwiebeln",
+    "1 kleine Tasse Zucker",
+    "1 kleine Tasse neutrales Öl",
+    "1 Teelöffel Pfeffer",
+    "2 Esslöffel Salz",
+    "300 Milliliter Kräuteressig",
+    "0,7 - 1 Liter Wasser mit Kohlensäure"
+  ],
+  "steps": [
+    "Strunk vom Kohl entfernen und fein raspeln oder schneiden. Die Zwiebeln ebenfalls in kleine Würfel schneiden und zum geraspelten Kohl geben",
+    "Essig, Salz, Pfeffer und Zucker verrühren, bis sich das Salz und der Zucker aufgelöst hat. Öl und Wasser hinzugeben und leicht verrühren",
+    "Das Dressing auf den Kohl und die Zwiebeln geben, kurz vermengen und am besten über Nacht im Kühlschrank ziehen lassen. Der Kohl und die Zwiebeln müssen komplett mit dem Dressing bedeckt sein. Das Ganze mit einem kleineren Teller als die Schüssel ist abdecken und beschweren, sodass der gesamte Salat mit Dressing bedeckt ist",
+    "Nach etwa 24 Stunden das Dressing abgiessen und den Krautsalat servieren",
+    "Passt super zum Grillen, Pita und griechischem Essen"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

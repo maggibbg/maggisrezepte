@@ -1,0 +1,34 @@
+{
+  "title": "Sushi Reis",
+  "date": "2022-06-21T17:11:53+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Beilagen",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Sushi Reis",
+  "ingredients": [
+    "500 Gramm Sushireis",
+    "550 Milliliter Wasser",
+    "100 Milliliter Reisessig",
+    "80 Gramm (brauner) Zucker",
+    "15 Gramm Salz"
+  ],
+  "steps": [
+    "Sushireis in ein Sieb geben und mit kaltem Wasser waschen. Der Reis muss so lange gewaschen werden, bis das Wasser nicht mehr trüb ist (etwa 5 Minuten). Beim waschen ist darauf zu achten, dass der Sushireis im Sieb schonend angefasst wird, da die Körner nicht zerbrechen dürfen",
+    "Den Reis und das Wasser in einen Reiskocher geben und kochen.",
+    "Den fertig gekochten Reis in ein flaches Gefäss geben",
+    "Essig, Salz und Zucker kurz miteinander aufkochen. Rühren, bis sich das Salz und der Zucker aufgelöst haben. Anschließend kann die heiße Flüssigkeit über den Reis gegossen werden. Zum vermischen sollte die Masse nicht gerührt sondern geschnitten werden. Am besten klappt das mit einem Teigschaber",
+    "Super für Sushi oder Buddha Bowl Sehr guter Reisessig: Mizkan Verhältnis: 1,1-fache Menge Wasser zu Reis"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

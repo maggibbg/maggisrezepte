@@ -1,0 +1,32 @@
+{
+  "title": "Knoblauch-Dip",
+  "date": "2022-06-07T10:03:39+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Saucen & Dips",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Knoblauch-Dip",
+  "ingredients": [
+    "200 Gramm Frischkäse",
+    "200 Gramm Saure Sahne",
+    "3 Zehen Knoblauch",
+    "Salz"
+  ],
+  "steps": [
+    "Frischkäse und Saure Sahne verrühren",
+    "Knoblauch fein hacken oder reiben",
+    "Alle Zutaten vermengen und mit Salz abschmecken",
+    "Passt super zu Raclette, Fondue und zum Grillen"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

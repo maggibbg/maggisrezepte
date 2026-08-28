@@ -1,0 +1,40 @@
+{
+  "title": "Taco Salat",
+  "date": "2022-06-14T12:04:42+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Salate",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Taco Salat",
+  "ingredients": [
+    "1 Eisbergsalat",
+    "500 Gramm Hackfleisch Alternativ: Soja Schnetzel",
+    "1 Dose Kidneybohnen",
+    "1 Dose Mais",
+    "1 Flasche Salsa (Maggi)",
+    "3 Tomaten",
+    "2 Becher Schmand",
+    "200 Gramm geriebener Gouda",
+    "Tortilla Chips",
+    "Salz, Pfeffer, Cumin, Paprikapulver, Knoblauchpulver"
+  ],
+  "steps": [
+    "Salat waschen, trocknen und klein schneiden. Anschließend in eine große Schüssel geben",
+    "Hackfleisch krümelig anbraten und mit Salz, Pfeffer, Cumin, Paprikapulver, Knoblauchpulver, geräuchertes Paprikapulver (falls vorhanden) ordentlich würzen und zur Seite stellen. Nach dem Abkühlen auf dem Salat verteilen",
+    "Kidneybohnen und Mail abtropfen lassen und ebenfalls in die Schüssel geben. Nun kann die Salsa darüber verteilt werden. Anschließend werden die Tomaten in kleine Würfel geschnitten und ebenfalls darüber verteilt.",
+    "Schmand mit Salz und Pfeffer würzen und auf den Tomaten verteilen. Abschließend den geriebenen Gouda über den Schmand verteilen und den Salat für circa 2 Stunden im Kühlschrank ziehen lassen.",
+    "Vor dem Servieren den Salat mit Tortilla Chips garnieren und servieren.",
+    "Den Salat am besten vor dem servieren ordentlich durchmischen, sodass sich alle Schichten vermischen Der Salat passt super zum Grillen oder als Hauptspeise"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

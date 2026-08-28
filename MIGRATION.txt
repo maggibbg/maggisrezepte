@@ -1,0 +1,5 @@
+Version 8 – echte WordPress-Rezepte
+Übernommen: 36 echte Rezeptseiten.
+Entfernt: alle bisherigen Beispielrezepte und „Test Seite Rezept“.
+Übernommen: Titel, Datum, Zutaten, Zubereitung, Bild-URL und ursprünglicher URL-Slug.
+Hinweis: Der WordPress-XML-Export enthält die Bilddateien nicht selbst. Bis zur endgültigen Bildmigration verwendet diese Version deshalb die vorhandenen Bild-URLs der weiterhin laufenden WordPress-Seite.

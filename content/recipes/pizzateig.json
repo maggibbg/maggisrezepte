@@ -1,0 +1,43 @@
+{
+  "title": "Pizzateig",
+  "date": "2022-06-14T08:26:35+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Pasta & Pizza",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2023/02/IMG_9082-scaled-e1676624138570.jpg",
+  "image_alt": "Pizzateig",
+  "ingredients": [
+    "1 Kilogramm Mehl (Caputo oder Tipo 00 - Wichtig: Eiweißgehalt größer als 12%)",
+    "650 Milliliter kaltes Wasser",
+    "2 Gramm frische Hefe (alternativ 1/3 Trockenhefe = 0,66 Gramm)",
+    "15 Gramm Olivenöl",
+    "25 Gramm Meersalz",
+    "Semola"
+  ],
+  "steps": [
+    "Das komplette Mehl und etwa 600 Milliliter Wasser in eine Küchenmaschine mit Knetaufsatz geben und ca. 30 Sekunden grob vermengen. Nun ca. 30 Minuten bei Raumtemperatur abgedeckt ruhen lassen (Autolyse)",
+    "Hefe im restlichen Wasser auflösen und die anderen Zutaten abwiegen",
+    "Nach 30 Minuten das Hefewasser und das Olivenöl hinzugeben und den Teig 5-10 Minuten kneten",
+    "Danach das Salz hinzugeben und den Teig weitere 10 Minuten kneten",
+    "Stockgare: Teig in einen luftdichten Behälter geben und für mindestens 12 Stunden in den Kühlschrank",
+    "Teig nach der Stockgare zu 6 gleich großen (ca. 280 Gramm) und runden Teiglinge formen Der Teig sollte eine glatte Oberfläche haben",
+    "Stückgare: Teiglinge in eine Luftdichte Box geben (z.B. eine große Auflaufform, luftdicht mit Frischhaltefolie verpackt) und nochmals für mindestens 8 Stunden in den Kühlschrank",
+    "Den Teig etwa 3-4 Stunden vor der Zubereitung aus dem Kühlrank nehmen und bei Raumtemperatur gehen lassen",
+    "Teig aus der Box nehmen und auf einem Berg mit Semola zur gewünschten Form bringen. Am besten geht das mit den Händen, indem der Teig von der Mitte nach außen gedrückt wird. Wichtig: Einen Rand stehen lassen, auf dem nicht gedrückt wird, sodass dieser gut aufgehen kann",
+    "Die Pizza mit beliebigen Zutaten belegen und anschließend direkt in den Backofen. Der Belag sollte nicht zu lange auf der Pizza sein, da diese sonst durchweicht",
+    "Zubereitung im Backofen: Pizzastein/Pizzastahl in den Backofen legen und den Backofen auf die höchste Stufe stellen. Wenn kein Pizzastein oder Pizzastahl vorhanden ist, kann auch die Rückseite eines Backblechs verwendet werden. Den Ofen mit dem Pizzastein/Pizzastahl ca. 45 Minuten vorheizen und anschließend die Pizza ca. 6-8 Minuten backen. Falls eine Grillfunktion vorhanden ist, kann diese ebenfalls eingeschaltet werden",
+    "Caputo Mehl: Cuoco, Nuvola oder Pizzeria Alternativ kann der Teig auch mit der Hand geknetet werden (doppelte Zeit)",
+    "Die Pizzasauce findest du hier!"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

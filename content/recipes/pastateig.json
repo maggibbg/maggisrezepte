@@ -1,0 +1,35 @@
+{
+  "title": "Pastateig",
+  "date": "2022-10-03T18:15:31+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Pasta & Pizza",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Pastateig",
+  "ingredients": [
+    "300 Gramm Mehl (Tipo 00)",
+    "200 Gramm Semola",
+    "5 Eier",
+    "1 Esslöffel Olivenöl",
+    "5 Gramm Salz"
+  ],
+  "steps": [
+    "Eier, Olivenöl und Salz verrühren",
+    "Mehl und Semola in einer Schüssel vermengen und eine Mulde in die Mitte drücken",
+    "Mit der Hand: Mit einer Gabel die flüssigen mit den trockenen Zutaten vermengen, bis es mit der Gabel nicht mehr möglich ist. Anschließend den Teig mit dem Handballen kneten, bis ein glatter fester Teig entsteht, der kaum klebt. Falls der Teig zu trocken ist, tröpfchenweise Wasser hinzugeben, bis die gewünschte Konsistenz erreicht ist",
+    "Mit der Knetmaschine: Alle Zutaten in die Rührschüssel geben und mit einem Knethaken kneten, bis ein glatter fester Teig entsteht (etwa 15-20 Minuten). Falls der Teig zu trocken ist, tröpfchenweise Wasser hinzugeben, bis die gewünschte Konsistenz erreicht ist",
+    "Den Teig in eine Frischhaltefolie wickeln und für mindestens 30 Minuten im Kühlschrank ruhen lassen. Nach 30 Minuten aus der Folie nehmen und nochmals kneten. Anschließend den Teig für weitere 30-60 Minuten in den Kühlschrank geben",
+    "Der Teig kann mit einer Nudelmaschine oder per Hand verarbeitet werden"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

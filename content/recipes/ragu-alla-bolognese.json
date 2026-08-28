@@ -1,0 +1,40 @@
+{
+  "title": "Ragù alla bolognese",
+  "date": "2022-12-10T13:50:01+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Pasta & Pizza",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Ragù alla bolognese",
+  "ingredients": [
+    "200 Gramm Karotte",
+    "100 Gramm Sellerie",
+    "100 Gramm Zwiebel",
+    "50 Gramm Fenchel (optional)",
+    "500 Gramm Hackfleisch (Rind oder gemischt)",
+    "2 Stück Salsiccia",
+    "1/2 Packung Tomatenmark",
+    "500 Milliliter Rotwein",
+    "1 Liter Gemüsebrühe",
+    "2 Dosen Tomaten",
+    "1 Esslöffel Fischsauce (optional)",
+    "2 Teelöffel Zucker",
+    "Salz, Pfeffer, Zucker"
+  ],
+  "steps": [
+    "Karotte, Sellerie, Zwiebel und Fenchel sehr fein schneiden (ggf. mit Hilfe eines Mixers) und in Olivenöl andünsten. 2 Teelöffel Salz, 1 Teelöffel Pfeffer und 1 Teelöffel Zucker hinzugeben - das Gemüse soll nicht braun werden. Sobald das Gemüse gedünstet ist, kann es aus dem Topf genommen werden. Anschließend das Hackfleisch und die Salsiccia hinzugeben und bei starker Hitze anbraten. Wenn das Fleisch gebraten ist, kann das Gemüse wieder hinzugegeben werden",
+    "Tomatenmark hinzugeben, bis ein Bratensatz entsteht. Mit Rotwein ablöschen, Bratensatz lösen und köcheln lassen, bis der Alkohol verdampft ist. Anschließend die Gemüsebrühe und die Dosentomaten hinzugeben und aufkochen lassen. Jetzt die Hitze reduzieren und für etwa 2-3 stunden köcheln lassen.",
+    "Währenddessen kann die Fischsauce, Salz, Pfeffer und etwa 1 Esslöffel Zucker hinzugefügt werden. Optional können italienische Kräuter hinzugegeben werden. Das Ragú so lange kochen, bis die gewünschte Konsistenz erreicht ist"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

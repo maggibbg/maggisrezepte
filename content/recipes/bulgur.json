@@ -1,0 +1,40 @@
+{
+  "title": "Bulgur",
+  "date": "2022-06-21T13:42:03+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Beilagen",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Bulgur",
+  "ingredients": [
+    "200 Gramm grober Bulgur",
+    "250 Milliliter Wasser",
+    "1 Paprika, rot",
+    "1 Zwiebel",
+    "2-3 Esslöffel Öl (Pflanzenöl, neutral)",
+    "1,5 Teelöffel Paprikamark (scharf)",
+    "1 Esslöffel Tomatenmark",
+    "1 Teelöffel Salz",
+    "1 Teelöffel Paprikapulver",
+    "Pfeffer"
+  ],
+  "steps": [
+    "Paprika und Zwiebeln in kleine Würfel schneiden",
+    "Öl erhitzen und die Paprika und Zwiebel leicht anbraten. Wenn das Gemüse glasig ist, das Paprikamark, Tomatenmark (falls kein Paprikamark vorhanden ist, kann die Menge Tomatenmark verdoppelt werden) und die Gewürze hinzugeben und leicht anbraten, sodass leichte Röstaromen entstehen. Die Gewürze dürfen aber nicht verbrennen!",
+    "In der Zwischenzeit kann der Bulgur gewaschen werden",
+    "Bulgur zum Gemüse geben und verrühren",
+    "Wasser in einem Wasserkocher zum kochen bringen und in den Topf geben, der Bulgur sollte leicht bedeckt sein. Kurz aufkochen lassen und den Bulgur anschließend mit Deckel etwa 15 Minuten bei kleiner Stufe köcheln lassen. Zwischendurch kurz umrühren, sodass das Tomatenmark nicht anbrennt. Wenn die Flüssigkeit eingezogen ist, den Bulgur noch etwa 10 Minuten ziehen lassen.",
+    "Passt auch super als Grundlage einer Bowl Mit einem klecks Joghurt servieren"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

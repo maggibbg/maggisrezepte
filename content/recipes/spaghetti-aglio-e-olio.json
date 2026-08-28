@@ -1,0 +1,37 @@
+{
+  "title": "Spaghetti aglio e olio",
+  "date": "2022-06-20T17:29:42+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Pasta & Pizza",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/IMG_6180-scaled-e1655801096819.jpg",
+  "image_alt": "Spaghetti aglio e olio",
+  "ingredients": [
+    "500 Gramm Spaghetti",
+    "100 Milliliter Natives Olivenöl",
+    "1 Knolle Knoblauch",
+    "1-2 Chili",
+    "1 Zitrone",
+    "40 Gramm Grana Padano",
+    "Petersilie",
+    "Salz"
+  ],
+  "steps": [
+    "Knoblauch und Chili in ganz feine Scheiben schneiden und die Petersilie hacken",
+    "Spaghetti nach Packungsbeilage in Salzwasser al dente kochen. Nach dem Kochen der Nudeln etwa 200 Milliliter Nudelwasser bei Seite stellen",
+    "Knoblauch und Chili mit dem Olivenöl in eine Pfanne und bei kleiner bis mittlerer Stufe erhitzen, bis der Knoblauch goldgelb ist. Der Knoblauch und die Chili sollen nicht braten sondern nur den Geschmack an das Olivenöl geben.",
+    "Nudeln mit einer Kochzange direkt vom Kochwasser in die Pfanne mit dem Olivenöl geben und alles verrühren. Die Hitze nun auf höchste Stufe erhöhen und kräftig salzen. Grana Padona und etwa 150 Milliliter Nudelwasser hinzugeben und ebenfalls verrühren. Zuletzt den Saft einer Zitrone und die Petersilie hinzugeben",
+    "Die Anzahl der Chilis kann je nach Geschmack erhöht werden Schmeckt kalt auch super als Salt (hier sollte der Grana Padano weggelassen werden)"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Zebrakuchen",
+  "date": "2022-06-29T13:20:51+00:00",
+  "description": "",
+  "category": "Backen",
+  "subcategory": "Süß",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Zebrakuchen",
+  "ingredients": [
+    "5 Eier",
+    "1 Packung Vanillezucker",
+    "280 Gramm Zucker",
+    "125 Milliliter Wasser (warm)",
+    "250 Milliliter neutrales Pflanzenöl",
+    "375 Gramm Mehl",
+    "1 Packung Backpulver",
+    "2 Esslöffel Backkakao"
+  ],
+  "steps": [
+    "Backofen bei 175 °C Ober- und Unterhitze vorheizen",
+    "Eiweiß steif schlagen und bei Seite stellen. Eigelb, Zucker und Vanillezucker schaumig rühren. Wasser und Öl dazugeben und gut verrühren, anschließend Mehl und Backpulver einrühren. Eiweiß unterheben und den Teig halbieren",
+    "Die Hälfte des Teiges mit dem Backkakao vermischen. Falls der Teig durch den Kakao zu trocken wird, kann ein Esslöffel Milch hinzugegeben werden",
+    "Eine Springform (Durchmesser 26 cm) einfetten. In der Mitte der Form einen Esslöffel des dunklen Teig geben und darauf einen Esslöffel hellen Teig, hierdurch entsteht das Zebramuster. Diesen Schritt so lange wiederholen, bis kein Teig mehr übrig ist",
+    "Kuchen in die Mitte des Backofens stellen und etwa 45 - 60 Minuten backen",
+    "Nach 45 Minuten den Holzstäbchen-Test machen (wenn beim herausziehen am Holz Teigreste kleben, muss der Kuchen noch im Ofen bleiben) Mit Zartbitterschokolade Kuvertüre glasieren oder mit Puderzucker bestreuen"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

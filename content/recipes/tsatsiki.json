@@ -1,0 +1,36 @@
+{
+  "title": "Tsatsiki",
+  "date": "2022-06-07T11:41:32+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Hauptgerichte",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Tsatsiki",
+  "ingredients": [
+    "1 Salatgurke",
+    "500 Gramm Sahnequark (Speisequark 40% Fett)",
+    "200 Gramm Creme fraiche",
+    "4-6 Zehen Knoblauch",
+    "1 Schuss Olivenöl",
+    "Salz",
+    "Pfeffer"
+  ],
+  "steps": [
+    "Salatgurke schälen und grob raspeln (grobe Seite einer Vierkantreibe). Anschließend die geraspelte Gurke großzügig salzen und zur Seite stellen",
+    "Quark und Creme fraiche in einer Schüssel vermengen und den klein geschnittenen oder geriebenen Knoblauch hinzugeben",
+    "Gurkenwasser mit den Händen aus der geraspelten Gurke drücken. Ebenfalls in die Schüssel geben und alle Zutaten vermengen",
+    "Mit Olivenöl, Salz und Pfeffer abschmecken",
+    "Am besten schmeckt der Tsatsiki, wenn er für mindestens 1 Stunde im Kühlschrank war"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

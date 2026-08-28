@@ -1,0 +1,46 @@
+{
+  "title": "Käsekuchen",
+  "date": "2022-06-29T18:18:04+00:00",
+  "description": "",
+  "category": "Backen",
+  "subcategory": "Süß",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/06/huma-kabakci-oRk4Ep65tRc-unsplash.jpg",
+  "image_alt": "Käsekuchen",
+  "ingredients": [
+    "Teig:",
+    "200 Gramm Mehl",
+    "75 Gramm Zucker",
+    "75 Gramm Margarine",
+    "1/2 Packung Backpulver",
+    "1 Ei",
+    "Füllung:",
+    "125 Gramm Margarine",
+    "220 Gramm Zucker",
+    "1 Packung Vanillezucker",
+    "1 Packung Vanillepuddingpulver",
+    "1/2 Teelöffel Vanilleextrakt",
+    "3 Eier",
+    "500 Gramm Quark (20% oder 40%)",
+    "200 Gramm Saure Sahne",
+    "200 Gramm Süße Sahne"
+  ],
+  "steps": [
+    "Die Zutaten für den Teig in eine Schüssel geben und mit den Händen verkneten. Teig in den Kühlschrank stellen",
+    "Margarine, Zucker, Vanillezucker, Vanilleextrakt, Puddingpulver, Ei und eine Prise Salz in einer Schüssel schaumig rühren. Quark und Saure Sahne dazugeben und ebenfalls verrühren. Die sahne steif schlagen und unter die Masse heben",
+    "Backofen auf 180 °C Ober- und Unterhitze vorheizen",
+    "Knetteig aus dem Kühlschrank nehmen, in einer gefetteten 26er Springform auslegen und am Rand hochziehen. Die Füllung in die Springform füllen - durch leichtes Klopfen am Rand lösen sich die Luftblasen aus der Masse",
+    "Den Kuchen in den vorgeheizten Ofen geben und etwa 60 Minuten backen",
+    "Achtung: Kuchen erst nach dem Erkalten aus der Form nehmen, da die Füllung im warmen Zustand sehr flüssig ist Wird der Kuchen zu schnell dunkel, mit Alufolie oder Backpapier bedecken"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

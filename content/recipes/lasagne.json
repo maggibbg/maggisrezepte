@@ -1,0 +1,39 @@
+{
+  "title": "Lasagne",
+  "date": "2022-12-10T14:20:55+00:00",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Pasta & Pizza",
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "time": "",
+  "servings": "",
+  "difficulty": "Einfach",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/12/IMG_8058-scaled-e1670683728391.jpg",
+  "image_alt": "Lasagne",
+  "ingredients": [
+    "Ragú alla bolognese",
+    "Lasagneplatten",
+    "100 Gramm Parmesankäse",
+    "200 Gramm Geriebener Käse / Mozzarella",
+    "Béchamelsauce:",
+    "85 Gramm Butter",
+    "85 Gramm Mehl",
+    "1 Liter Milch",
+    "50 Gramm Parmesan (optional)",
+    "Muskatnuss, gerieben",
+    "Salz, Pfeffer"
+  ],
+  "steps": [
+    "Für die Béchamelsauce eine Mehlschwitze machen (= Butter im Topf erhitzen und das Mehl hinzugeben - ständig rühren). Anschließend die Milch hinzugeben (vorab etwa 900 Milliliter) und rühren, bis die Soße aufgekocht ist. Ggf. etwas mehr oder weniger Milch einrühren und anschließend den Parmesan, Muskat, Salz und Pfeffer hinzugeben",
+    "Eine dünne Schicht Ragú in eine große Auflaufform geben und darüber eine Schicht Lasagneplatten. Anschließend eine Schicht Ragú, darauf Béchamelsauce und Parmesan und die Nudelplatten. Dies wird wiederholt, bis die Auflaufform voll ist. Nach der letzten Schicht auf die Nudelplatten viel Béchamelsauce geben. Als letzte Schicht Parmesan und/oder geriebenen Käse/Mozzarella geben",
+    "Die Lasagne für etwa 45 - 60 Minuten bei 180°C in den Ofen geben. Falls der Käse zu dunkel wird, mit einer Aluminiumfolie abdecken",
+    "Siehe hierzu: Ragú alla bolognese und Pastateig (oben verlinkt)"
+  ],
+  "notes": "",
+  "tags": [],
+  "seo_description": ""
+}

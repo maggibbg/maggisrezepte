@@ -12,5 +12,7 @@
   "title": "Test Rezepdfg",
   "difficulty": "Mittel",
   "category": "Kochen",
-  "subcategory": "Hauptgerichte"
+  "subcategory": "Hauptgerichte",
+  "image": "/images/platzhalter-rezept.png",
+  "image_alt": "Rezeptfoto folgt"
 }

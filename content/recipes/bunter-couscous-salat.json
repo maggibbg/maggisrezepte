@@ -6,7 +6,7 @@
   "time": "20 Min.",
   "servings": "4 Portionen",
   "difficulty": "Einfach",
-  "image": "/images/rezept-demo.png",
+  "image": "/images/platzhalter-rezept.png",
   "ingredients": [
     "250 g Couscous",
     "300 ml Gemüsebrühe",
@@ -22,5 +22,6 @@
     "Gemüse klein schneiden.",
     "Alles vermengen und mit Öl, Zitronensaft, Salz und Pfeffer abschmecken."
   ],
-  "notes": ""
+  "notes": "",
+  "image_alt": "Rezeptfoto folgt"
 }

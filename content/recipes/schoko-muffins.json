@@ -6,7 +6,7 @@
   "time": "35 Min.",
   "servings": "12 Stück",
   "difficulty": "Einfach",
-  "image": "/images/rezept-demo.png",
+  "image": "/images/platzhalter-rezept.png",
   "ingredients": [
     "250 g Mehl",
     "40 g Kakao",
@@ -24,5 +24,6 @@
     "Schokolade unterheben.",
     "In Förmchen füllen und ca. 20 Minuten backen."
   ],
-  "notes": ""
+  "notes": "",
+  "image_alt": "Rezeptfoto folgt"
 }

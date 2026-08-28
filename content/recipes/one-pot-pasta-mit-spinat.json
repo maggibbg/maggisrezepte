@@ -6,7 +6,7 @@
   "time": "25 Min.",
   "servings": "4 Portionen",
   "difficulty": "Einfach",
-  "image": "/images/rezept-demo.png",
+  "image": "/images/platzhalter-rezept.png",
   "ingredients": [
     "400 g Pasta",
     "250 g Blattspinat",
@@ -22,5 +22,6 @@
     "Unter regelmäßigem Rühren garen.",
     "Spinat zum Schluss unterheben und abschmecken."
   ],
-  "notes": ""
+  "notes": "",
+  "image_alt": "Rezeptfoto folgt"
 }

@@ -12,5 +12,7 @@
   "title": "Test Rezept",
   "difficulty": "Mittel",
   "category": "Backen",
-  "subcategory": "Süß"
+  "subcategory": "Süß",
+  "image": "/images/platzhalter-rezept.png",
+  "image_alt": "Rezeptfoto folgt"
 }

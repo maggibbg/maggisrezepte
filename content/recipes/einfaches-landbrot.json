@@ -6,7 +6,7 @@
   "time": "3 Std.",
   "servings": "1 Brot",
   "difficulty": "Mittel",
-  "image": "/images/rezept-demo.png",
+  "image": "/images/platzhalter-rezept.png",
   "ingredients": [
     "500 g Weizenmehl",
     "350 ml Wasser",
@@ -19,5 +19,6 @@
     "Teig formen und nochmals ruhen lassen.",
     "Bei hoher Temperatur knusprig backen."
   ],
-  "notes": ""
+  "notes": "",
+  "image_alt": "Rezeptfoto folgt"
 }

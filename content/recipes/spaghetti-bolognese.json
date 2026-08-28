@@ -6,7 +6,7 @@
   "time": "30 Min.",
   "servings": "4 Portionen",
   "difficulty": "Einfach",
-  "image": "/images/rezept-demo.png",
+  "image": "/images/platzhalter-rezept.png",
   "ingredients": [
     "500 g Spaghetti",
     "400 g Rinderhackfleisch",
@@ -29,5 +29,6 @@
     "Spaghetti kochen und abgießen.",
     "Mit der Bolognese-Sauce anrichten und Parmesan darübergeben."
   ],
-  "notes": ""
+  "notes": "",
+  "image_alt": "Rezeptfoto folgt"
 }

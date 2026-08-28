@@ -1,19 +1,5 @@
 {
-  "title": "Apfelkuchen",
-  "date": "2022-06-21T18:30:41+00:00",
-  "description": "",
-  "category": "Backen",
-  "subcategory": "Süß",
-  "details": {
-    "prep_time": "",
-    "cook_time": "",
-    "total_time": ""
-  },
-  "time": "",
-  "servings": "",
-  "difficulty": "Einfach",
-  "image": "https://maggisrezepte.de/wp-content/uploads/2022/08/IMG_6787-scaled-e1660048181503.jpg",
-  "image_alt": "Apfelkuchen",
+  "notes": "",
   "ingredients": [
     "1,5 Kilogramm Äpfel (sauer)",
     "250 Gramm Mehl",
@@ -26,6 +12,13 @@
     "Zimt und Zucker",
     "Butter zum bestreichen"
   ],
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "image_alt": "Apfelkuchen",
+  "servings": "1 Kuchen",
   "steps": [
     "Backofen bei 200 °C Ober- und Unterhitze vorheizen",
     "Butter, Zucker, Vanillezucker, Eier und Salz schaumig rühren. Mehl und Backpulver Löffel für Löffel hinzugeben und ebenfalls verrühren",
@@ -34,7 +27,14 @@
     "50-55 Minuten bei 200 °C Ober- und Unterhitze backen. Den Kuchen nach 40 Minuten aus dem Backofen nehmen und mit 2 Esslöffel weicher Butter bestreichen. Zimt und Zucker darüber streuen (etwa 2 Esslöffel Zucker, 1 Teelöffel Zimt) und für weitere 15 Minuten backen",
     "Sollte der Kuchen vorher braun werden, kann er mit Backpapier oder Alufolie bedeckt werden Der Kuchen schmeckt auch super als Nachspeise mit Vanilleeis oder Schlagsahne"
   ],
-  "notes": "",
+  "time": "30 Min.",
+  "date": "2022-06-21T18:30:41+00:00",
+  "title": "Apfelkuchen",
   "tags": [],
-  "seo_description": ""
+  "seo_description": "",
+  "image": "https://maggisrezepte.de/wp-content/uploads/2022/08/IMG_6787-scaled-e1660048181503.jpg",
+  "difficulty": "Einfach",
+  "description": "",
+  "category": "Backen",
+  "subcategory": "Süß"
 }

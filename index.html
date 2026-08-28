@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MaggisRezepte – Einfache Rezepte</title>
+  <meta name="description" content="Einfache und leckere Rezepte von MaggisRezepte.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">MaggisRezepte</a>
+
+    <nav>
+      <a href="index.html">Rezepte</a>
+      <a href="#kategorien">Kategorien</a>
+      <a href="#ueber-mich">Über mich</a>
+    </nav>
+
+    <label class="search">
+      <span>⌕</span>
+      <input id="search" type="search" placeholder="Rezept suchen…">
+    </label>
+  </header>
+
+  <main class="notebook">
+
+    <aside class="sidebar">
+      <h2>Kategorien</h2>
+      <a href="#rezepte">Alle Rezepte</a>
+      <a href="#rezepte">Hauptgerichte</a>
+      <a href="#rezepte">Pasta</a>
+      <a href="#rezepte">Suppen</a>
+      <a href="#rezepte">Salate</a>
+      <a href="#rezepte">Kuchen &amp; Torten</a>
+      <a href="#rezepte">Desserts</a>
+      <a href="#rezepte">Snacks</a>
+    </aside>
+
+    <section class="page">
+
+      <p class="eyebrow">EINFACH. LECKER. SELBSTGEMACHT.</p>
+
+      <h1>MaggisRezepte</h1>
+
+      <p class="intro">
+        Einfache Rezepte, die man gerne kocht.
+      </p>
+
+      <h2 id="rezepte">Neueste Rezepte</h2>
+
+      <div id="recipe-list" class="recipe-list">
+
+        <a class="recipe"
+           href="rezept-spaghetti-bolognese.html"
+           data-search="spaghetti bolognese pasta hauptgerichte">
+          <div>
+            <h3>Spaghetti Bolognese</h3>
+            <p>30 Min. · 4 Portionen · Einfach</p>
+          </div>
+          <span>→</span>
+        </a>
+
+        <a class="recipe"
+           href="rezept-kuerbissuppe.html"
+           data-search="kürbissuppe suppe">
+          <div>
+            <h3>Kürbissuppe</h3>
+            <p>35 Min. · 4 Portionen · Einfach</p>
+          </div>
+          <span>→</span>
+        </a>
+
+        <a class="recipe"
+           href="rezept-apfelkuchen.html"
+           data-search="apfelkuchen kuchen torten">
+          <div>
+            <h3>Apfelkuchen</h3>
+            <p>60 Min. · 12 Stück · Einfach</p>
+          </div>
+          <span>→</span>
+        </a>
+
+      </div>
+
+      <section id="kategorien" class="simple-section">
+        <h2>Kategorien</h2>
+        <p>
+          Hauptgerichte · Pasta · Suppen · Salate · Kuchen &amp; Torten ·
+          Desserts · Snacks
+        </p>
+      </section>
+
+      <section id="ueber-mich" class="simple-section">
+        <h2>Über mich</h2>
+        <p>
+          Willkommen bei MaggisRezepte. Hier findest du einfache Rezepte
+          für jeden Tag.
+        </p>
+      </section>
+
+    </section>
+  </main>
+
+  <footer>
+    © 2026 MaggisRezepte · Impressum · Datenschutz
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

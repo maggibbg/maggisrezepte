@@ -1,112 +1,13 @@
-<!doctype html>
-<html lang="de">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MaggisRezepte – Einfache Rezepte</title>
-  <meta name="description" content="Einfache und leckere Rezepte von MaggisRezepte.">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <header class="site-header">
-    <a class="logo" href="index.html">MaggisRezepte</a>
-
-    <nav>
-      <a href="index.html">Rezepte</a>
-      <a href="#kategorien">Kategorien</a>
-      <a href="#ueber-mich">Über mich</a>
-    </nav>
-
-    <label class="search">
-      <span>⌕</span>
-      <input id="search" type="search" placeholder="Rezept suchen…">
-    </label>
-  </header>
-
-  <main class="notebook">
-
-    <aside class="sidebar">
-      <h2>Kategorien</h2>
-      <a href="#rezepte">Alle Rezepte</a>
-      <a href="#rezepte">Hauptgerichte</a>
-      <a href="#rezepte">Pasta</a>
-      <a href="#rezepte">Suppen</a>
-      <a href="#rezepte">Salate</a>
-      <a href="#rezepte">Kuchen &amp; Torten</a>
-      <a href="#rezepte">Desserts</a>
-      <a href="#rezepte">Snacks</a>
-    </aside>
-
-    <section class="page">
-
-      <p class="eyebrow">EINFACH. LECKER. SELBSTGEMACHT.</p>
-
-      <h1>MaggisRezepte</h1>
-
-      <p class="intro">
-        Einfache Rezepte, die man gerne kocht.
-      </p>
-
-      <h2 id="rezepte">Neueste Rezepte</h2>
-
-      <div id="recipe-list" class="recipe-list">
-
-        <a class="recipe"
-           href="rezept-spaghetti-bolognese.html"
-           data-search="spaghetti bolognese pasta hauptgerichte">
-          <div>
-            <h3>Spaghetti Bolognese</h3>
-            <p>30 Min. · 4 Portionen · Einfach</p>
-          </div>
-          <span>→</span>
-        </a>
-
-        <a class="recipe"
-           href="rezept-kuerbissuppe.html"
-           data-search="kürbissuppe suppe">
-          <div>
-            <h3>Kürbissuppe</h3>
-            <p>35 Min. · 4 Portionen · Einfach</p>
-          </div>
-          <span>→</span>
-        </a>
-
-        <a class="recipe"
-           href="rezept-apfelkuchen.html"
-           data-search="apfelkuchen kuchen torten">
-          <div>
-            <h3>Apfelkuchen</h3>
-            <p>60 Min. · 12 Stück · Einfach</p>
-          </div>
-          <span>→</span>
-        </a>
-
-      </div>
-
-      <section id="kategorien" class="simple-section">
-        <h2>Kategorien</h2>
-        <p>
-          Hauptgerichte · Pasta · Suppen · Salate · Kuchen &amp; Torten ·
-          Desserts · Snacks
-        </p>
-      </section>
-
-      <section id="ueber-mich" class="simple-section">
-        <h2>Über mich</h2>
-        <p>
-          Willkommen bei MaggisRezepte. Hier findest du einfache Rezepte
-          für jeden Tag.
-        </p>
-      </section>
-
-    </section>
-  </main>
-
-  <footer>
-    © 2026 MaggisRezepte · Impressum · Datenschutz
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MaggisRezepte</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<header><a class="brand" href="index.html">MaggisRezepte</a><label class="search">⌕ <input id="search" placeholder="Rezept suchen…"></label></header>
+<main class="home"><section class="sheet"><i class="clip"></i><h1>Neueste Rezepte</h1><div id="list">
+<a class="row" data-search="spaghetti bolognese pasta pizza" href="rezept-spaghetti-bolognese.html"><span class="pic a"></span><span><b>Spaghetti Bolognese</b><small>30 Min. · 4 Portionen</small></span><em>›</em></a>
+<a class="row" data-search="one pot pasta spinat pasta pizza" href="rezept-one-pot-pasta.html"><span class="pic b"></span><span><b>One Pot Pasta mit Spinat</b><small>25 Min. · 4 Portionen</small></span><em>›</em></a>
+<a class="row" data-search="couscous salat salate" href="rezept-couscous-salat.html"><span class="pic c"></span><span><b>Bunter Couscous-Salat</b><small>20 Min. · 4 Portionen</small></span><em>›</em></a>
+<a class="row" data-search="schoko muffins süß backen" href="rezept-schoko-muffins.html"><span class="pic d"></span><span><b>Schoko Muffins</b><small>35 Min. · 12 Stück</small></span><em>›</em></a>
+<a class="row" data-search="landbrot herzhaft backen" href="rezept-landbrot.html"><span class="pic e"></span><span><b>Einfaches Landbrot</b><small>3 Std. · 1 Brot</small></span><em>›</em></a>
+</div></section>
+<section class="cats"><h2>Kategorien</h2><div class="grid">
+<article><i></i><h3>Kochen</h3><a>Hauptgerichte <b>›</b></a><a>Pasta &amp; Pizza <b>›</b></a><a>Salate <b>›</b></a><a>Beilagen <b>›</b></a><a>Saucen &amp; Dips <b>›</b></a><a>Snacks <b>›</b></a></article>
+<article><i></i><h3>Backen</h3><a>Süß <b>›</b></a><a>Herzhaft <b>›</b></a></article></div></section></main>
+<footer><strong>MaggisRezepte</strong><span>Mein digitales Rezept-Notizbuch</span><nav>Über diese Seite　 Datenschutz　 Impressum</nav></footer><script src="script.js"></script></body></html>

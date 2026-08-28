@@ -1,1 +1,1 @@
-const input=document.querySelector('#search');const recipes=document.querySelectorAll('.recipe');if(input){input.addEventListener('input',()=>{const q=input.value.toLowerCase().trim();recipes.forEach(r=>r.style.display=!q||r.dataset.search.includes(q)?'flex':'none')})}
+const q=document.querySelector("#search"),rows=[...document.querySelectorAll(".row")];if(q)q.addEventListener("input",()=>{const s=q.value.toLocaleLowerCase("de").trim();rows.forEach(r=>r.style.display=!s||r.dataset.search.toLocaleLowerCase("de").includes(s)?"grid":"none")});

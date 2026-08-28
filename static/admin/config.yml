@@ -2,7 +2,9 @@ backend:
   name: github
   repo: maggibbg/maggisrezepte
   branch: main
-
+  base_url: https://maggisrezepte-oauth.lechnermarkus.workers.dev
+  auth_endpoint: auth
+  
 publish_mode: simple
 
 media_folder: "static/images/uploads"

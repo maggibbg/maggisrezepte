@@ -1,15 +1,11 @@
-MaggisRezepte Version 4
+MaggisRezepte Version 5
 
-Neu:
-- Startseite beginnt direkt mit den Kategorien
-- der Text „Einfach kochen. Einfach backen.“ wurde entfernt
-- Startseite optisch stärker an die Rezept-Unterseite angelehnt
-- linke Kategorienavigation auch auf der Startseite
-- freundlicherer Hintergrund mit sehr dezenten warmen Farbflächen statt einfarbigem Hintergrund
-- Notizbuch-Papierfläche mit feinen Linien als zentrale Inhaltsfläche
-- Kategorien zuerst, darunter neue Rezepte
-- Rezeptseiten bleiben mit linker Kategorienavigation und ohne schwarze Lochpunkte
+Finales Design-Feintuning:
+- hellbrauner, einfarbiger Seitenhintergrund entfernt
+- deutlich hellerer neutraler Hintergrund
+- sehr feines Raster/Papiermuster im Hintergrund
+- dezente creme- und salbeifarbene Lichtflächen
+- Notizbuch-Inhaltsfläche bleibt klar im Vordergrund
+- restlicher Aufbau aus Version 4 unverändert
 
-Upload:
-ZIP entpacken und den Inhalt in dein bestehendes GitHub-Repository hochladen.
-Vorhandene Dateien ersetzen. Netlify aktualisiert automatisch.
+Nächster Schritt: einfache Rezeptverwaltung/CMS.

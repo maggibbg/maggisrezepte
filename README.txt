@@ -1,23 +1,10 @@
-MAGGISREZEPTE – VERSION 6.1 / CMS
+MAGGISREZEPTE – VERSION 6.2 / CMS
 
-Diese Version ist bereits vorkonfiguriert für:
+Behoben:
+- Neue Rezepte werden auf der Startseite unter „Neue Rezepte“ korrekt berücksichtigt.
+- Datumswerte aus Decap CMS im Format 28.08.2026T12:22 werden korrekt sortiert.
+- Auch ISO-Datumswerte werden weiterhin unterstützt.
+- Auf der Startseite erscheinen automatisch die 6 neuesten Rezepte, neuestes zuerst.
+- HTML-Seiten erhalten über Netlify eine Revalidierungsregel, damit nach einem Deploy keine veraltete Startseite im Browser/CDN hängen bleibt.
 
-GitHub:
-maggibbg/maggisrezepte
-
-Netlify:
-https://illustrious-platypus-858143.netlify.app
-
-Enthalten:
-- Decap CMS unter /admin/
-- bestehende Rezepte als bearbeitbare Datensätze
-- neue Rezepte können angelegt werden
-- Bilder können im Adminbereich hochgeladen werden
-- Kategorien und Unterkategorien
-- automatischer Build für Startseite, Kategorienseiten und Rezeptseiten
-- Rezept-Druckansicht
-- Google Recipe strukturierte Daten
-
-WICHTIG:
-Nach dem Upload muss noch die GitHub-OAuth-Anmeldung eingerichtet werden.
-Die eigentliche Website und der Adminbereich werden anschließend über Netlify ausgeliefert.
+Bestehende CMS-Konfiguration für maggibbg/maggisrezepte und die Netlify-Testseite bleibt erhalten.

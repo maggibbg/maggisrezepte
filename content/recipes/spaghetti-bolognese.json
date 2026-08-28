@@ -1,5 +1,12 @@
 {
-  "notes": "",
+  "title": "Spaghetti Bolognese",
+  "date": "2026-08-28T10:00:00.000Z",
+  "category": "Kochen",
+  "subcategory": "Pasta & Pizza",
+  "time": "30 Min.",
+  "servings": "4 Portionen",
+  "difficulty": "Einfach",
+  "image": "/images/rezept-demo.png",
   "ingredients": [
     "500 g Spaghetti",
     "400 g Rinderhackfleisch",
@@ -13,7 +20,6 @@
     "1 TL Oregano",
     "Parmesan zum Servieren"
   ],
-  "servings": "4 Portionen",
   "steps": [
     "Zwiebel und Knoblauch fein hacken. Karotte schälen und klein würfeln.",
     "Olivenöl erhitzen und Hackfleisch krümelig anbraten.",
@@ -23,11 +29,5 @@
     "Spaghetti kochen und abgießen.",
     "Mit der Bolognese-Sauce anrichten und Parmesan darübergeben."
   ],
-  "time": "35 Min.",
-  "date": "2026-08-28T10:00:00.000Z",
-  "title": "Spaghetti Bolognese",
-  "image": "/images/rezept-demo.png",
-  "difficulty": "Einfach",
-  "category": "Kochen",
-  "subcategory": "Pasta & Pizza"
+  "notes": ""
 }

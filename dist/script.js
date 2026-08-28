@@ -1,0 +1,1 @@
+const q=document.querySelector("#search");const cards=[...document.querySelectorAll(".recipe-card")];if(q){q.addEventListener("input",()=>{const s=q.value.toLocaleLowerCase("de").trim();cards.forEach(c=>c.style.display=!s||c.dataset.search.toLocaleLowerCase("de").includes(s)?"grid":"none")})}

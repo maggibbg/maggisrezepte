@@ -3,14 +3,12 @@
 <head>
 <title>MaggisRezepte – Mein digitales Rezept-Notizbuch</title>
 <meta name="description" content="Einfache Rezepte zum Kochen und Backen.">
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 <header class="site-header">
@@ -23,24 +21,38 @@
   </div>
 </header>
 
-<main class="home-shell">
-  <section class="intro">
-    <p class="eyebrow">MEIN DIGITALES REZEPT-NOTIZBUCH</p>
-    <h1>Einfach kochen.<br>Einfach backen.</h1>
-    <p>Schlichte Rezepte, schnell gefunden und ohne unnötigen Schnickschnack.</p>
-  </section>
+<main class="home-layout">
+  <aside class="recipe-sidebar home-sidebar">
+    <div class="sidebar-inner">
+      <section class="sidebar-group">
+        <p>KOCHEN</p>
+        <a href="#">Hauptgerichte</a>
+        <a href="#">Pasta &amp; Pizza</a>
+        <a href="#">Salate</a>
+        <a href="#">Beilagen</a>
+        <a href="#">Saucen &amp; Dips</a>
+        <a href="#">Snacks</a>
+      </section>
 
-  <section class="category-section">
-    <div class="section-heading">
+      <section class="sidebar-group">
+        <p>BACKEN</p>
+        <a href="#">Süß</a>
+        <a href="#">Herzhaft</a>
+      </section>
+    </div>
+  </aside>
+
+  <section class="home-paper">
+    <div class="section-heading home-heading">
       <span>01</span>
-      <h2>Kategorien</h2>
+      <h1>Kategorien</h1>
     </div>
 
-    <div class="category-board">
-      <article class="category-card">
+    <div class="home-category-grid">
+      <article class="home-category-card">
         <div class="tape"></div>
         <p class="card-label">KOCHEN</p>
-        <h3>Kochen</h3>
+        <h2>Kochen</h2>
         <nav>
           <a href="#">Hauptgerichte <span>›</span></a>
           <a href="#">Pasta &amp; Pizza <span>›</span></a>
@@ -51,25 +63,25 @@
         </nav>
       </article>
 
-      <article class="category-card">
+      <article class="home-category-card">
         <div class="tape"></div>
         <p class="card-label">BACKEN</p>
-        <h3>Backen</h3>
+        <h2>Backen</h2>
         <nav>
           <a href="#">Süß <span>›</span></a>
           <a href="#">Herzhaft <span>›</span></a>
         </nav>
       </article>
     </div>
-  </section>
 
-  <section class="latest-section">
+    <div class="paper-divider"></div>
+
     <div class="section-heading">
       <span>02</span>
       <h2>Neue Rezepte</h2>
     </div>
 
-    <div id="recipe-list" class="recipe-list">
+    <div id="recipe-list" class="recipe-list home-recipe-list">
       <a class="recipe-card" href="rezept-spaghetti-bolognese.html" data-search="spaghetti bolognese kochen pasta pizza">
         <div class="thumb photo-a"></div>
         <div class="recipe-info">

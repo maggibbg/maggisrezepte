@@ -1,15 +1,15 @@
-MaggisRezepte Version 3
+MaggisRezepte Version 4
 
-Änderungen:
-- Kategorien auf der Startseite jetzt VOR den neuen Rezepten
-- modernerer, ruhigerer Notizbuch-Stil
-- Rezeptseiten mit dauerhaft sichtbarer Kategorienavigation links
-- Unterkategorien Kochen / Backen in der linken Navigation
-- schwarze Loch-/Spiralpunkte auf Rezeptseiten vollständig entfernt
-- Druckfunktion bleibt erhalten
-- mobile Ansicht angepasst
+Neu:
+- Startseite beginnt direkt mit den Kategorien
+- der Text „Einfach kochen. Einfach backen.“ wurde entfernt
+- Startseite optisch stärker an die Rezept-Unterseite angelehnt
+- linke Kategorienavigation auch auf der Startseite
+- freundlicherer Hintergrund mit sehr dezenten warmen Farbflächen statt einfarbigem Hintergrund
+- Notizbuch-Papierfläche mit feinen Linien als zentrale Inhaltsfläche
+- Kategorien zuerst, darunter neue Rezepte
+- Rezeptseiten bleiben mit linker Kategorienavigation und ohne schwarze Lochpunkte
 
 Upload:
-Alle Dateien aus diesem Ordner in dein bestehendes GitHub-Repository hochladen.
-Vorhandene index.html, style.css, script.js und Rezeptdateien ersetzen.
-Netlify veröffentlicht danach automatisch.
+ZIP entpacken und den Inhalt in dein bestehendes GitHub-Repository hochladen.
+Vorhandene Dateien ersetzen. Netlify aktualisiert automatisch.

@@ -1,0 +1,1 @@
+const input=document.querySelector('#search');const recipes=document.querySelectorAll('.recipe');if(input){input.addEventListener('input',()=>{const q=input.value.toLowerCase().trim();recipes.forEach(r=>r.style.display=!q||r.dataset.search.includes(q)?'flex':'none')})}

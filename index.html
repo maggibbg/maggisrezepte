@@ -1,13 +1,133 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MaggisRezepte</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
-<header><a class="brand" href="index.html">MaggisRezepte</a><label class="search">⌕ <input id="search" placeholder="Rezept suchen…"></label></header>
-<main class="home"><section class="sheet"><i class="clip"></i><h1>Neueste Rezepte</h1><div id="list">
-<a class="row" data-search="spaghetti bolognese pasta pizza" href="rezept-spaghetti-bolognese.html"><span class="pic a"></span><span><b>Spaghetti Bolognese</b><small>30 Min. · 4 Portionen</small></span><em>›</em></a>
-<a class="row" data-search="one pot pasta spinat pasta pizza" href="rezept-one-pot-pasta.html"><span class="pic b"></span><span><b>One Pot Pasta mit Spinat</b><small>25 Min. · 4 Portionen</small></span><em>›</em></a>
-<a class="row" data-search="couscous salat salate" href="rezept-couscous-salat.html"><span class="pic c"></span><span><b>Bunter Couscous-Salat</b><small>20 Min. · 4 Portionen</small></span><em>›</em></a>
-<a class="row" data-search="schoko muffins süß backen" href="rezept-schoko-muffins.html"><span class="pic d"></span><span><b>Schoko Muffins</b><small>35 Min. · 12 Stück</small></span><em>›</em></a>
-<a class="row" data-search="landbrot herzhaft backen" href="rezept-landbrot.html"><span class="pic e"></span><span><b>Einfaches Landbrot</b><small>3 Std. · 1 Brot</small></span><em>›</em></a>
-</div></section>
-<section class="cats"><h2>Kategorien</h2><div class="grid">
-<article><i></i><h3>Kochen</h3><a>Hauptgerichte <b>›</b></a><a>Pasta &amp; Pizza <b>›</b></a><a>Salate <b>›</b></a><a>Beilagen <b>›</b></a><a>Saucen &amp; Dips <b>›</b></a><a>Snacks <b>›</b></a></article>
-<article><i></i><h3>Backen</h3><a>Süß <b>›</b></a><a>Herzhaft <b>›</b></a></article></div></section></main>
-<footer><strong>MaggisRezepte</strong><span>Mein digitales Rezept-Notizbuch</span><nav>Über diese Seite　 Datenschutz　 Impressum</nav></footer><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="de">
+<head>
+<title>MaggisRezepte – Mein digitales Rezept-Notizbuch</title>
+<meta name="description" content="Einfache Rezepte zum Kochen und Backen.">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">MaggisRezepte</a>
+    <label class="search-box">
+      <span>⌕</span>
+      <input id="search" type="search" placeholder="Rezept suchen…">
+    </label>
+  </div>
+</header>
+
+<main class="home-shell">
+  <section class="intro">
+    <p class="eyebrow">MEIN DIGITALES REZEPT-NOTIZBUCH</p>
+    <h1>Einfach kochen.<br>Einfach backen.</h1>
+    <p>Schlichte Rezepte, schnell gefunden und ohne unnötigen Schnickschnack.</p>
+  </section>
+
+  <section class="category-section">
+    <div class="section-heading">
+      <span>01</span>
+      <h2>Kategorien</h2>
+    </div>
+
+    <div class="category-board">
+      <article class="category-card">
+        <div class="tape"></div>
+        <p class="card-label">KOCHEN</p>
+        <h3>Kochen</h3>
+        <nav>
+          <a href="#">Hauptgerichte <span>›</span></a>
+          <a href="#">Pasta &amp; Pizza <span>›</span></a>
+          <a href="#">Salate <span>›</span></a>
+          <a href="#">Beilagen <span>›</span></a>
+          <a href="#">Saucen &amp; Dips <span>›</span></a>
+          <a href="#">Snacks <span>›</span></a>
+        </nav>
+      </article>
+
+      <article class="category-card">
+        <div class="tape"></div>
+        <p class="card-label">BACKEN</p>
+        <h3>Backen</h3>
+        <nav>
+          <a href="#">Süß <span>›</span></a>
+          <a href="#">Herzhaft <span>›</span></a>
+        </nav>
+      </article>
+    </div>
+  </section>
+
+  <section class="latest-section">
+    <div class="section-heading">
+      <span>02</span>
+      <h2>Neue Rezepte</h2>
+    </div>
+
+    <div id="recipe-list" class="recipe-list">
+      <a class="recipe-card" href="rezept-spaghetti-bolognese.html" data-search="spaghetti bolognese kochen pasta pizza">
+        <div class="thumb photo-a"></div>
+        <div class="recipe-info">
+          <small>KOCHEN · PASTA &amp; PIZZA</small>
+          <h3>Spaghetti Bolognese</h3>
+          <p>30 Min. · 4 Portionen</p>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="recipe-card" href="rezept-one-pot-pasta.html" data-search="one pot pasta spinat kochen pasta pizza">
+        <div class="thumb photo-b"></div>
+        <div class="recipe-info">
+          <small>KOCHEN · PASTA &amp; PIZZA</small>
+          <h3>One Pot Pasta mit Spinat</h3>
+          <p>25 Min. · 4 Portionen</p>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="recipe-card" href="rezept-couscous-salat.html" data-search="couscous salat kochen salate">
+        <div class="thumb photo-c"></div>
+        <div class="recipe-info">
+          <small>KOCHEN · SALATE</small>
+          <h3>Bunter Couscous-Salat</h3>
+          <p>20 Min. · 4 Portionen</p>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="recipe-card" href="rezept-schoko-muffins.html" data-search="schoko muffins backen süß">
+        <div class="thumb photo-d"></div>
+        <div class="recipe-info">
+          <small>BACKEN · SÜß</small>
+          <h3>Schoko Muffins</h3>
+          <p>35 Min. · 12 Stück</p>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="recipe-card" href="rezept-landbrot.html" data-search="landbrot backen herzhaft">
+        <div class="thumb photo-e"></div>
+        <div class="recipe-info">
+          <small>BACKEN · HERZHAFT</small>
+          <h3>Einfaches Landbrot</h3>
+          <p>3 Std. · 1 Brot</p>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div><strong>MaggisRezepte</strong><span>Mein digitales Rezept-Notizbuch</span></div>
+  <nav><a href="#">Datenschutz</a><a href="#">Impressum</a></nav>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

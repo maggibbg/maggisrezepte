@@ -1,10 +1,24 @@
-MAGGISREZEPTE – VERSION 6.2 / CMS
+MAGGISREZEPTE – VERSION 7 / VERBESSERTER ADMINBEREICH
 
-Behoben:
-- Neue Rezepte werden auf der Startseite unter „Neue Rezepte“ korrekt berücksichtigt.
-- Datumswerte aus Decap CMS im Format 28.08.2026T12:22 werden korrekt sortiert.
-- Auch ISO-Datumswerte werden weiterhin unterstützt.
-- Auf der Startseite erscheinen automatisch die 6 neuesten Rezepte, neuestes zuerst.
-- HTML-Seiten erhalten über Netlify eine Revalidierungsregel, damit nach einem Deploy keine veraltete Startseite im Browser/CDN hängen bleibt.
+Neu in Version 7:
+- übersichtlichere Beschriftungen und Hilfetexte im Adminbereich
+- zusätzliche Filter für die Rezeptübersicht
+- Vorbereitungszeit, Koch-/Backzeit und Gesamtzeit
+- Kurzbeschreibung für jedes Rezept
+- Bildbeschreibung (Alt-Text)
+- Suchbegriffe/Tags
+- optionale SEO-Beschreibung
+- bessere Google-Recipe-Daten (Zeiten, Kategorie, Keywords, Beschreibung)
+- Zutaten und Zubereitungsschritte können weiterhin bequem ergänzt,
+  gelöscht und umsortiert werden
+- neues Datumsformat wird sauber als ISO gespeichert
+- bestehende Rezepte bleiben vollständig kompatibel
+- die Korrektur für „Neue Rezepte“ aus Version 6.2 bleibt erhalten
 
-Bestehende CMS-Konfiguration für maggibbg/maggisrezepte und die Netlify-Testseite bleibt erhalten.
+Hinweis zur Kategorie:
+Kochen: Hauptgerichte, Pasta & Pizza, Salate, Beilagen, Saucen & Dips, Snacks
+Backen: Süß, Herzhaft
+
+Die Website bleibt vorkonfiguriert für:
+GitHub: maggibbg/maggisrezepte
+Netlify: illustrious-platypus-858143.netlify.app

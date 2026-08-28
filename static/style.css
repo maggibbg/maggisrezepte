@@ -524,3 +524,27 @@ body{
   .home-category-grid{grid-template-columns:1fr}
   .home-category-card{transform:none!important}
 }
+
+
+/* Version 7 – zusätzliche Rezeptdetails */
+.recipe-intro{
+  max-width:760px;
+  margin:18px 0 22px;
+  font-family:Inter,Arial,sans-serif;
+  font-size:1.02rem;
+  line-height:1.7;
+  color:#4d514d;
+}
+.time-detail{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px 22px;
+  margin:8px 0 20px;
+  font-family:Inter,Arial,sans-serif;
+  font-size:.9rem;
+  color:#666b66;
+}
+.time-detail strong{color:#343834;font-weight:600}
+@media(max-width:700px){
+  .time-detail{gap:6px 14px}
+}

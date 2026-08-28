@@ -3,12 +3,13 @@ backend:
   repo: maggibbg/maggisrezepte
   branch: main
 
+publish_mode: simple
+
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
 site_url: "https://illustrious-platypus-858143.netlify.app"
 display_url: "https://illustrious-platypus-858143.netlify.app"
-logo_url: "/images/rezept-demo.png"
 
 slug:
   encoding: "ascii"
@@ -34,13 +35,45 @@ collections:
       - label: "Backen"
         field: "category"
         pattern: "Backen"
+      - label: "Pasta & Pizza"
+        field: "subcategory"
+        pattern: "Pasta & Pizza"
+      - label: "Salate"
+        field: "subcategory"
+        pattern: "Salate"
+      - label: "Süß"
+        field: "subcategory"
+        pattern: "Süß"
+      - label: "Herzhaft"
+        field: "subcategory"
+        pattern: "Herzhaft"
+
     fields:
-      - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Veröffentlicht am", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", time_format: "HH:mm" }
+      - label: "Titel"
+        name: "title"
+        widget: "string"
+        hint: "Der Name des Rezepts, wie er auf der Website erscheinen soll."
+
+      - label: "Veröffentlicht am"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DDTHH:mm:ss.SSSZ"
+        date_format: "DD.MM.YYYY"
+        time_format: "HH:mm"
+        hint: "Neuere Rezepte erscheinen automatisch weiter oben auf der Startseite."
+
+      - label: "Kurzbeschreibung"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "1–2 kurze Sätze zum Rezept. Wird auf der Rezeptseite und für Google verwendet."
+
       - label: "Kategorie"
         name: "category"
         widget: "select"
         options: ["Kochen", "Backen"]
+        hint: "Kochen: Hauptgerichte, Pasta & Pizza, Salate, Beilagen, Saucen & Dips, Snacks · Backen: Süß, Herzhaft"
+
       - label: "Unterkategorie"
         name: "subcategory"
         widget: "select"
@@ -53,23 +86,108 @@ collections:
           - "Snacks"
           - "Süß"
           - "Herzhaft"
-      - { label: "Zubereitungszeit", name: "time", widget: "string", hint: "z. B. 30 Min." }
-      - { label: "Portionen / Menge", name: "servings", widget: "string", hint: "z. B. 4 Portionen oder 1 Brot" }
+        hint: "Bitte passend zur Kategorie wählen. Backen verwendet nur Süß oder Herzhaft."
+
+      - label: "Zeiten & Menge"
+        name: "details"
+        widget: "object"
+        required: false
+        collapsed: false
+        fields:
+          - label: "Vorbereitungszeit"
+            name: "prep_time"
+            widget: "string"
+            required: false
+            hint: "z. B. 15 Min."
+          - label: "Koch-/Backzeit"
+            name: "cook_time"
+            widget: "string"
+            required: false
+            hint: "z. B. 30 Min."
+          - label: "Gesamtzeit"
+            name: "total_time"
+            widget: "string"
+            required: false
+            hint: "z. B. 45 Min. – wenn leer, wird die bisherige Zubereitungszeit verwendet."
+
+      - label: "Zubereitungszeit (bestehendes Feld)"
+        name: "time"
+        widget: "string"
+        hint: "z. B. 30 Min. Dieses Feld bleibt für bestehende Rezepte erhalten."
+
+      - label: "Portionen / Menge"
+        name: "servings"
+        widget: "string"
+        hint: "z. B. 4 Portionen, 12 Stück oder 1 Brot"
+
       - label: "Schwierigkeit"
         name: "difficulty"
         widget: "select"
         options: ["Einfach", "Mittel", "Anspruchsvoll"]
-      - { label: "Rezeptbild", name: "image", widget: "image", required: false }
+
+      - label: "Rezeptbild"
+        name: "image"
+        widget: "image"
+        required: false
+        choose_url: false
+        hint: "Am besten ein Querformat-Foto verwenden."
+
+      - label: "Bildbeschreibung"
+        name: "image_alt"
+        widget: "string"
+        required: false
+        hint: "Kurze Beschreibung des Fotos, z. B. „Spaghetti Bolognese auf weißem Teller“."
+
       - label: "Zutaten"
         name: "ingredients"
         widget: "list"
         allow_add: true
+        allow_remove: true
+        allow_reorder: true
         collapsed: false
-        field: { label: "Zutat", name: "item", widget: "string" }
+        label_singular: "Zutat"
+        field:
+          label: "Zutat"
+          name: "item"
+          widget: "string"
+          hint: "Menge und Zutat in einer Zeile, z. B. 500 g Spaghetti"
+
       - label: "Zubereitung"
         name: "steps"
         widget: "list"
         allow_add: true
+        allow_remove: true
+        allow_reorder: true
         collapsed: false
-        field: { label: "Schritt", name: "item", widget: "text" }
-      - { label: "Notizen (optional)", name: "notes", widget: "text", required: false }
+        label_singular: "Schritt"
+        field:
+          label: "Schritt"
+          name: "item"
+          widget: "text"
+
+      - label: "Notizen / Tipp"
+        name: "notes"
+        widget: "text"
+        required: false
+        hint: "Optional, z. B. Varianten, Aufbewahrung oder Serviertipp."
+
+      - label: "Suchbegriffe"
+        name: "tags"
+        widget: "list"
+        required: false
+        allow_add: true
+        allow_remove: true
+        allow_reorder: true
+        collapsed: false
+        label_singular: "Suchbegriff"
+        field:
+          label: "Suchbegriff"
+          name: "tag"
+          widget: "string"
+        hint: "Optional. Hilft später bei Suche und SEO, z. B. schnell, italienisch, vegetarisch."
+
+      - label: "SEO-Beschreibung"
+        name: "seo_description"
+        widget: "text"
+        required: false
+        hint: "Optional. Kurzer Text für Google. Wenn leer, wird die Kurzbeschreibung verwendet."

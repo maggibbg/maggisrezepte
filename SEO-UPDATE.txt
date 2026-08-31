@@ -9,3 +9,9 @@ MaggisRezepte – SEO-Update
 - Recipe JSON-LD enthält die endgültige Rezept-URL
 - Platzhalterbild bleibt als Standardbild erhalten
 - Cloudflare/Decap-OAuth-Konfiguration bleibt erhalten
+
+Version 10.1:
+- Suchfeld durchsucht jetzt alle Rezepte der Website, nicht nur sichtbare Karten.
+- Suche funktioniert auch auf Rezeptdetailseiten und Kategorieseiten.
+- Suche berücksichtigt Titel, Kategorie, Unterkategorie, Tags und Zutaten.
+- Enter öffnet den ersten Treffer; Esc schließt die Ergebnisliste.

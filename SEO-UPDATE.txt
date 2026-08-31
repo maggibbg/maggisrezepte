@@ -1,0 +1,11 @@
+MaggisRezepte – SEO-Update
+
+- 36 vorhandene Rezepte
+- Alte WordPress-Rezept-URLs bleiben 1:1 erhalten
+- Frühere Zwischen-URLs /rezept-*.html werden per 301 auf die endgültigen URLs umgeleitet
+- Canonical-URLs auf https://maggisrezepte.de gesetzt
+- sitemap.xml wird automatisch beim Build erzeugt
+- robots.txt wird automatisch beim Build erzeugt
+- Recipe JSON-LD enthält die endgültige Rezept-URL
+- Platzhalterbild bleibt als Standardbild erhalten
+- Cloudflare/Decap-OAuth-Konfiguration bleibt erhalten

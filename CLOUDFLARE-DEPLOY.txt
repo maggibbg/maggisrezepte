@@ -14,3 +14,12 @@ Wichtig:
 - Die Startseite zeigt automatisch nur die 3 neuesten Rezepte.
 - Das Decap-CMS unter /admin verwendet weiterhin den vorhandenen GitHub-Backend/OAuth-Worker.
 - site_url und display_url im CMS zeigen auf https://maggisrezepte.de.
+
+V16 CACHE-BUSTING
+-----------------
+Die Design-Datei heißt ab dieser Version static/style-v16.css.
+Der Build bindet /style-v16.css ein. Dadurch kann eine alte style.css aus Browser- oder Cloudflare-Cache die neue Optik nicht mehr überlagern.
+
+Cloudflare Pages:
+Build command: npm run build
+Build output directory: dist

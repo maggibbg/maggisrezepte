@@ -16,14 +16,17 @@
 body{
   margin:0;
   color:var(--ink);
-  /* Schwarze Schiefertafel: bewusst dezent, damit das Papier im Vordergrund bleibt. */
-  background-color:#202220;
+  /* Schiefer: dunkles Graublau statt tiefschwarz, mit leichter natürlicher Steinstruktur. */
+  background-color:#363c3e;
   background-image:
-    radial-gradient(ellipse at 18% 12%,rgba(255,255,255,.035),transparent 34%),
-    radial-gradient(ellipse at 82% 72%,rgba(255,255,255,.02),transparent 38%),
-    repeating-linear-gradient(12deg,rgba(255,255,255,.012) 0,rgba(255,255,255,.012) 1px,transparent 1px,transparent 7px),
-    repeating-linear-gradient(102deg,rgba(0,0,0,.06) 0,rgba(0,0,0,.06) 1px,transparent 1px,transparent 11px);
-  background-size:auto,auto,220px 220px,260px 260px;
+    radial-gradient(circle at 14% 16%,rgba(255,255,255,.08),transparent 24%),
+    radial-gradient(circle at 84% 20%,rgba(255,255,255,.05),transparent 20%),
+    radial-gradient(circle at 18% 78%,rgba(0,0,0,.10),transparent 26%),
+    radial-gradient(circle at 76% 76%,rgba(0,0,0,.08),transparent 28%),
+    repeating-linear-gradient(18deg,rgba(255,255,255,.022) 0,rgba(255,255,255,.022) 2px,transparent 2px,transparent 11px),
+    repeating-linear-gradient(112deg,rgba(0,0,0,.05) 0,rgba(0,0,0,.05) 1px,transparent 1px,transparent 13px),
+    linear-gradient(180deg,#40474a 0%,#353b3d 34%,#2f3436 100%);
+  background-size:auto,auto,auto,auto,240px 240px,280px 280px,100% 100%;
   background-attachment:fixed;
   font-family:var(--type);
   line-height:1.55;

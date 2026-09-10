@@ -16,7 +16,7 @@
 body{
   margin:0;
   color:var(--ink);
-  /* Schiefer: dunkles Graublau statt tiefschwarz, mit leichter natürlicher Steinstruktur. */
+  /* Schiefer: dunkles Graublau statt tiefschwarz, mit leichter natÃ¼rlicher Steinstruktur. */
   background-color:#363c3e;
   background-image:
     radial-gradient(circle at 14% 16%,rgba(255,255,255,.08),transparent 24%),
@@ -518,7 +518,7 @@ body{
 }
 
 
-/* Version 7 – zusätzliche Rezeptdetails */
+/* Version 7 â€“ zusÃ¤tzliche Rezeptdetails */
 .recipe-intro{
   max-width:760px;
   margin:18px 0 22px;
@@ -584,7 +584,7 @@ body{
 .site-footer strong{color:rgba(255,255,255,.92)}
 .site-footer span,.site-footer a{color:rgba(255,255,255,.72)}
 
-/* Version 11 – Startseite direkt auf Schiefer statt auf einem zweiten großen Papierblock */
+/* Version 11 â€“ Startseite direkt auf Schiefer statt auf einem zweiten groÃŸen Papierblock */
 .home-layout > .home-paper{
   background:transparent;
   background-image:none;
@@ -627,14 +627,14 @@ body{
   }
 }
 
-/* Version 12 – realistischere Notizblock-Optik, bewusst nah am bestehenden Design */
+/* Version 12 â€“ realistischere Notizblock-Optik, bewusst nah am bestehenden Design */
 :root{
   --paper-real:#f8f5ec;
   --paper-line:rgba(89,126,154,.14);
   --paper-margin:rgba(181,78,78,.30);
 }
 
-/* Schiefer nur minimal strukturieren – keine Deko, Zutaten oder Illustrationen */
+/* Schiefer nur minimal strukturieren â€“ keine Deko, Zutaten oder Illustrationen */
 body{
   background-color:#1d1f1e;
   background-image:
@@ -696,7 +696,7 @@ body{
 .home-layout > .home-paper .home-category-card:nth-child(1):hover{transform:rotate(-.10deg) translateY(-2px)}
 .home-layout > .home-paper .home-category-card:nth-child(2):hover{transform:rotate(.14deg) translateY(-2px)}
 
-/* Lochung links – der dunkle Schiefer scheint optisch durch */
+/* Lochung links â€“ der dunkle Schiefer scheint optisch durch */
 .home-layout > .home-paper .home-category-card:before{
   content:"";
   position:absolute;
@@ -730,7 +730,7 @@ body{
 }
 .home-category-card > *{position:relative;z-index:1}
 
-/* Klebeband etwas natürlicher, aber nicht dekorativer */
+/* Klebeband etwas natÃ¼rlicher, aber nicht dekorativer */
 .home-category-card .tape{
   z-index:4;
   width:98px;
@@ -757,7 +757,7 @@ body{
   box-shadow:0 9px 21px rgba(0,0,0,.20),inset 0 0 16px rgba(100,83,59,.025);
 }
 
-/* Rezept-Unterseiten: gleiche Struktur wie bisher, nur als glaubwürdigere Notizbuchseite */
+/* Rezept-Unterseiten: gleiche Struktur wie bisher, nur als glaubwÃ¼rdigere Notizbuchseite */
 .recipe-paper{
   position:relative;
   isolation:isolate;
@@ -829,7 +829,7 @@ body{
 }
 
 /* =====================================================================
-   Version 13 – Startseite näher an der freigegebenen Designvorlage
+   Version 13 â€“ Startseite nÃ¤her an der freigegebenen Designvorlage
    Nur Design/CSS. Bestehende Struktur, Inhalte und CMS-Logik bleiben gleich.
    ===================================================================== */
 
@@ -847,7 +847,7 @@ body{
   .home-layout > .home-paper{padding-top:20px}
 }
 
-/* Schiefer: gleichmäßig, ruhig, fein strukturiert */
+/* Schiefer: gleichmÃ¤ÃŸig, ruhig, fein strukturiert */
 body{
   background-color:#1b1d1c;
   background-image:
@@ -858,10 +858,10 @@ body{
   background-size:auto,auto,250px 250px,300px 300px;
 }
 
-/* Header bewusst unverändert und ruhig */
+/* Header bewusst unverÃ¤ndert und ruhig */
 .site-header{background:rgba(250,248,243,.97)}
 
-/* Seitlicher Kategorienzettel: echtes, leicht unregelmäßiges Papier */
+/* Seitlicher Kategorienzettel: echtes, leicht unregelmÃ¤ÃŸiges Papier */
 .home-layout .home-sidebar .sidebar-inner{
   background-color:#f7f3e9;
   background-image:
@@ -876,7 +876,7 @@ body{
   padding:24px 20px 26px;
 }
 
-/* Überschriften direkt auf Schiefer */
+/* Ãœberschriften direkt auf Schiefer */
 .home-layout > .home-paper .section-heading{
   margin-bottom:30px;
 }
@@ -938,7 +938,7 @@ body{
   opacity:.88;
 }
 
-/* Klebeband – etwas kleiner, matter und glaubwürdiger */
+/* Klebeband â€“ etwas kleiner, matter und glaubwÃ¼rdiger */
 .home-category-card .tape{
   width:92px;
   height:27px;
@@ -955,7 +955,7 @@ body{
 .home-category-card h2{font-size:25px;margin-bottom:18px}
 .home-category-card a{padding:10px 0}
 
-/* Kein zusätzlicher Trenner/Block zwischen den Bereichen */
+/* Kein zusÃ¤tzlicher Trenner/Block zwischen den Bereichen */
 .home-layout > .home-paper .paper-divider{display:none}
 .home-layout > .home-paper .latest-section,
 .home-layout > .home-paper .home-recipe-list{margin-top:0}
@@ -964,7 +964,7 @@ body{
   margin-bottom:18px;
 }
 
-/* Die drei neuesten Rezepte – wie in der Referenz nebeneinander */
+/* Die drei neuesten Rezepte â€“ wie in der Referenz nebeneinander */
 .home-recipe-list{
   display:grid;
   grid-template-columns:repeat(3,minmax(0,1fr));
@@ -1021,7 +1021,7 @@ body{
   font-size:18px;
 }
 
-/* Rezept-Unterseiten: keine Layoutänderung – nur dieselbe realistischere Papierqualität */
+/* Rezept-Unterseiten: keine LayoutÃ¤nderung â€“ nur dieselbe realistischere PapierqualitÃ¤t */
 .recipe-paper{
   background-color:#f8f4e9;
   background-image:
@@ -1047,9 +1047,9 @@ body{
 }
 
 /* =====================================================================
-   Version 14 – realistischere Papier-/Notizblock-Optik
-   Abgestimmte Variante: ruhige Schiefertafel, realistische Notizblätter
-   und eine passende Papier-Kopfzeile. Ausschließlich CSS/Design.
+   Version 14 â€“ realistischere Papier-/Notizblock-Optik
+   Abgestimmte Variante: ruhige Schiefertafel, realistische NotizblÃ¤tter
+   und eine passende Papier-Kopfzeile. AusschlieÃŸlich CSS/Design.
    ===================================================================== */
 
 :root{
@@ -1062,7 +1062,7 @@ body{
   --tape-real:rgba(214,194,153,.82);
 }
 
-/* Ruhige schwarze Schiefertafel – nur Materialstruktur, keine Dekoration. */
+/* Ruhige schwarze Schiefertafel â€“ nur Materialstruktur, keine Dekoration. */
 body{
   background-color:#191b1a;
   background-image:
@@ -1075,7 +1075,7 @@ body{
   background-attachment:fixed;
 }
 
-/* Kopfzeile jetzt ebenfalls wie ein echtes Stück helles Papier. */
+/* Kopfzeile jetzt ebenfalls wie ein echtes StÃ¼ck helles Papier. */
 .site-header{
   position:sticky;
   top:0;
@@ -1207,7 +1207,7 @@ body{
 }
 .sidebar-group a{border-bottom:1px solid rgba(125,117,106,.26)}
 
-/* Überschriften wie Kreide/Tinte direkt auf dem Schiefer. */
+/* Ãœberschriften wie Kreide/Tinte direkt auf dem Schiefer. */
 .home-layout > .home-paper .section-heading h1,
 .home-layout > .home-paper .section-heading h2{
   color:#f7f3ea;
@@ -1222,7 +1222,7 @@ body{
 }
 .home-layout > .home-paper .paper-divider{display:none}
 
-/* Kategorieblätter: realistischere Collegeblock-Seiten. */
+/* KategorieblÃ¤tter: realistischere Collegeblock-Seiten. */
 .home-category-grid{
   grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr);
   gap:31px;
@@ -1339,7 +1339,7 @@ body{
 .home-recipe-list .recipe-info p{border-top:1px solid rgba(112,104,92,.30);padding-top:8px;font-size:11px;color:#5d5952}
 .home-recipe-list .arrow{right:12px;bottom:9px;font-size:18px}
 
-/* Unterseiten behalten ihre Struktur, bekommen aber die gleiche echte Papierqualität. */
+/* Unterseiten behalten ihre Struktur, bekommen aber die gleiche echte PapierqualitÃ¤t. */
 .recipe-paper{
   background-color:#f5f0e5;
   background-image:
@@ -1398,8 +1398,8 @@ body{
 }
 
 /* =====================================================================
-   Version 15 – finaler Schiefer-Hintergrund
-   Muss am Dateiende stehen, damit ältere body-Regeln ihn nicht überschreiben.
+   Version 15 â€“ finaler Schiefer-Hintergrund
+   Muss am Dateiende stehen, damit Ã¤ltere body-Regeln ihn nicht Ã¼berschreiben.
    ===================================================================== */
 body{
   background-color:#363c3f;
@@ -1416,22 +1416,22 @@ body{
 }
 
 /* =====================================================================
-   Version 16.1 – Kategorie-Unterseiten / Typografie-Korrektur
-   - lange Rezeptnamen bleiben vollständig in den Karten
+   Version 16.1 â€“ Kategorie-Unterseiten / Typografie-Korrektur
+   - lange Rezeptnamen bleiben vollstÃ¤ndig in den Karten
    - redundante kleine KOCHEN/BACKEN-Labels werden entfernt
    ===================================================================== */
 
-/* Startseite: kleine graue Kategoriebezeichnung in den großen Zetteln ausblenden. */
+/* Startseite: kleine graue Kategoriebezeichnung in den groÃŸen Zetteln ausblenden. */
 .home-category-card > .card-label{
   display:none !important;
 }
 
-/* Kategorie-Unterseiten: das kleine graue „KOCHEN/BACKEN“ vor der Überschrift entfernen. */
+/* Kategorie-Unterseiten: das kleine graue â€žKOCHEN/BACKENâ€œ vor der Ãœberschrift entfernen. */
 .category-page .section-heading > span{
   display:none !important;
 }
 
-/* Kategorie-Unterseiten: Rezeptkarten bekommen genug Raum für den vollständigen Titel. */
+/* Kategorie-Unterseiten: Rezeptkarten bekommen genug Raum fÃ¼r den vollstÃ¤ndigen Titel. */
 .category-page .home-recipe-list{
   display:grid;
   grid-template-columns:repeat(3,minmax(0,1fr));
@@ -1499,4 +1499,3 @@ body{
     flex-basis:180px;
   }
 }
-

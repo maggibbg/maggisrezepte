@@ -1,19 +1,5 @@
 {
-  "title": "Lauchkuchen",
-  "date": "2022-06-29T12:17:23+00:00",
-  "description": "",
-  "category": "Backen",
-  "subcategory": "Süß",
-  "details": {
-    "prep_time": "",
-    "cook_time": "",
-    "total_time": ""
-  },
-  "time": "",
-  "servings": "",
-  "difficulty": "Einfach",
-  "image": "/images/platzhalter-rezept.png",
-  "image_alt": "Rezeptfoto folgt",
+  "notes": "",
   "ingredients": [
     "1 Blätterteig (fertig, aus der Kühlung)",
     "200 Gramm Speck",
@@ -26,6 +12,13 @@
     "Salz",
     "Pfeffer"
   ],
+  "details": {
+    "prep_time": "",
+    "cook_time": "",
+    "total_time": ""
+  },
+  "image_alt": "Rezeptfoto folgt",
+  "servings": "4 Portionen",
   "steps": [
     "Lauch gründlich waschen und in feine Ringe schneiden. Speck, Zwiebeln und Knoblauch in feine Würfel schneiden. Zuerst den Speck in eine Pfanne und auslassen (braten, bis das Fett ausgetreten ist). Anschließend den Lauch, die Zwiebel und den Knoblauch hinzugeben und dünsten. Pfanne zur Seite Stellen und die Masse abkühlen lassen",
     "Eier, Schmand und Käse verquirlen und mit Salz und Pfeffer abschmecken.",
@@ -33,7 +26,14 @@
     "Beide Massen vermischen und in die mit Blätterteig ausgelegte Springform füllen. Im Ofen etwa 35 Minuten bei 200 °C Ober- und Unterhitze goldbraun backen.",
     "Schmeckt auch super mit Feta Vegetarisch: Einfach den Speck weglassen"
   ],
-  "notes": "",
+  "time": "40 Min.",
+  "date": "2022-06-29T12:17:23+00:00",
+  "title": "Lauchkuchen",
   "tags": [],
-  "seo_description": ""
+  "seo_description": "",
+  "image": "/images/platzhalter-rezept.png",
+  "difficulty": "Einfach",
+  "description": "",
+  "category": "Kochen",
+  "subcategory": "Hauptgerichte"
 }

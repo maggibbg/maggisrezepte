@@ -10,8 +10,8 @@ publish_mode: simple
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
-site_url: "https://illustrious-platypus-858143.netlify.app"
-display_url: "https://illustrious-platypus-858143.netlify.app"
+site_url: "https://maggisrezepte.de"
+display_url: "https://maggisrezepte.de"
 
 slug:
   encoding: "ascii"

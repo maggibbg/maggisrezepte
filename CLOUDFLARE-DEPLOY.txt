@@ -1,0 +1,16 @@
+MaggisRezepte – GitHub / Cloudflare Pages
+
+Diese Version ist für den bestehenden GitHub-Workflow vorbereitet.
+
+Build-Einstellungen:
+- Build command: npm run build
+- Build output directory: dist
+- Node.js: 22 (empfohlen)
+- Production branch: main
+
+Wichtig:
+- Die Website wird durch build.js aus content/recipes und static erzeugt.
+- Änderungen an Rezepten werden im Ordner content/recipes gespeichert.
+- Die Startseite zeigt automatisch nur die 3 neuesten Rezepte.
+- Das Decap-CMS unter /admin verwendet weiterhin den vorhandenen GitHub-Backend/OAuth-Worker.
+- site_url und display_url im CMS zeigen auf https://maggisrezepte.de.

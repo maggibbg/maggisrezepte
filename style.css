@@ -16,14 +16,14 @@
 body{
   margin:0;
   color:var(--ink);
-  background-color:#f4f2ec;
+  /* Schwarze Schiefertafel: bewusst dezent, damit das Papier im Vordergrund bleibt. */
+  background-color:#202220;
   background-image:
-    linear-gradient(rgba(74,94,86,.035) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(74,94,86,.035) 1px,transparent 1px),
-    radial-gradient(circle at 18% 12%,rgba(255,255,255,.95),transparent 27%),
-    radial-gradient(circle at 88% 18%,rgba(185,199,190,.16),transparent 24%),
-    radial-gradient(circle at 72% 82%,rgba(213,202,179,.13),transparent 25%);
-  background-size:34px 34px,34px 34px,auto,auto,auto;
+    radial-gradient(ellipse at 18% 12%,rgba(255,255,255,.035),transparent 34%),
+    radial-gradient(ellipse at 82% 72%,rgba(255,255,255,.02),transparent 38%),
+    repeating-linear-gradient(12deg,rgba(255,255,255,.012) 0,rgba(255,255,255,.012) 1px,transparent 1px,transparent 7px),
+    repeating-linear-gradient(102deg,rgba(0,0,0,.06) 0,rgba(0,0,0,.06) 1px,transparent 1px,transparent 11px);
+  background-size:auto,auto,220px 220px,260px 260px;
   background-attachment:fixed;
   font-family:var(--type);
   line-height:1.55;
@@ -442,17 +442,6 @@ body{
   padding:44px 56px 58px;
   min-height:900px;
 }
-.home-paper:after{
-  content:"";
-  position:absolute;
-  width:220px;
-  height:220px;
-  right:-95px;
-  top:-100px;
-  border-radius:50%;
-  background:rgba(221,207,177,.16);
-  pointer-events:none;
-}
 .home-heading{margin-top:0}
 .home-heading h1{
   margin:0;
@@ -523,4 +512,254 @@ body{
   }
   .home-category-grid{grid-template-columns:1fr}
   .home-category-card{transform:none!important}
+}
+
+
+/* Slate-background contrast for the existing footer */
+.site-footer{border-top-color:rgba(255,255,255,.28)}
+.site-footer strong{color:rgba(255,255,255,.92)}
+.site-footer span,.site-footer a{color:rgba(255,255,255,.72)}
+
+/* Version 11 – Startseite direkt auf Schiefer statt auf einem zweiten großen Papierblock */
+.home-layout > .home-paper{
+  background:transparent;
+  background-image:none;
+  border:0;
+  box-shadow:none;
+  padding:22px 0 12px;
+  min-height:0;
+  overflow:visible;
+}
+.home-layout > .home-paper .section-heading h1,
+.home-layout > .home-paper .section-heading h2{
+  color:#f7f4ec;
+  border-bottom-color:#f7f4ec;
+  text-shadow:0 1px 1px rgba(0,0,0,.28);
+}
+.home-layout > .home-paper .paper-divider{
+  background:linear-gradient(90deg,transparent,rgba(247,244,236,.48) 15%,rgba(247,244,236,.48) 85%,transparent);
+  opacity:1;
+}
+.home-layout > .home-paper .home-category-card{
+  background:
+    linear-gradient(rgba(90,123,145,.10) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(90,123,145,.10) 1px,transparent 1px),
+    rgba(255,254,249,.96);
+  background-size:24px 24px;
+  box-shadow:0 10px 26px rgba(0,0,0,.22);
+}
+.home-layout > .home-paper .home-recipe-list .recipe-card{
+  background:rgba(255,254,249,.96);
+  box-shadow:0 8px 22px rgba(0,0,0,.18);
+}
+.home-layout .home-sidebar .sidebar-inner{
+  background:rgba(251,250,246,.96);
+  box-shadow:0 9px 26px rgba(0,0,0,.18);
+}
+@media(max-width:780px){
+  .home-layout > .home-paper{
+    padding:20px 0 26px;
+    background:none;
+  }
+}
+
+/* Version 12 – realistischere Notizblock-Optik, bewusst nah am bestehenden Design */
+:root{
+  --paper-real:#f8f5ec;
+  --paper-line:rgba(89,126,154,.14);
+  --paper-margin:rgba(181,78,78,.30);
+}
+
+/* Schiefer nur minimal strukturieren – keine Deko, Zutaten oder Illustrationen */
+body{
+  background-color:#1d1f1e;
+  background-image:
+    radial-gradient(ellipse at 18% 12%,rgba(255,255,255,.032),transparent 34%),
+    radial-gradient(ellipse at 82% 72%,rgba(255,255,255,.018),transparent 38%),
+    repeating-linear-gradient(11deg,rgba(255,255,255,.010) 0,rgba(255,255,255,.010) 1px,transparent 1px,transparent 8px),
+    repeating-linear-gradient(101deg,rgba(0,0,0,.065) 0,rgba(0,0,0,.065) 1px,transparent 1px,transparent 13px);
+  background-size:auto,auto,240px 240px,290px 290px;
+  background-attachment:fixed;
+}
+
+/* Linke Navigation: weiterhin gleich aufgebaut, nur etwas echteres Papier */
+.sidebar-inner{
+  position:relative;
+  isolation:isolate;
+  background-color:rgba(249,246,238,.97);
+  background-image:
+    linear-gradient(118deg,transparent 0 76%,rgba(118,103,81,.035) 77%,transparent 79%),
+    radial-gradient(ellipse at 18% 14%,rgba(115,96,72,.035),transparent 21%),
+    radial-gradient(ellipse at 86% 82%,rgba(115,96,72,.025),transparent 19%);
+  border:1px solid rgba(198,188,173,.92);
+  border-radius:3px 5px 4px 3px;
+  box-shadow:0 10px 28px rgba(0,0,0,.21),inset 0 0 20px rgba(104,91,70,.025);
+}
+.sidebar-inner:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  border-radius:inherit;
+  background:linear-gradient(16deg,transparent 0 88%,rgba(255,255,255,.28) 89%,transparent 91%);
+  opacity:.75;
+}
+
+/* Startseite: Kategorie-Fenster wie Seiten aus einem echten College-/Notizblock */
+.home-layout > .home-paper .home-category-card{
+  isolation:isolate;
+  overflow:visible;
+  padding:36px 28px 26px 48px;
+  background-color:var(--paper-real);
+  background-image:
+    linear-gradient(90deg,transparent 0,transparent 35px,var(--paper-margin) 36px,transparent 37px),
+    repeating-linear-gradient(to bottom,transparent 0,transparent 27px,var(--paper-line) 28px),
+    linear-gradient(128deg,transparent 0 78%,rgba(111,94,68,.040) 79%,transparent 81%),
+    radial-gradient(ellipse at 17% 12%,rgba(115,96,72,.035),transparent 18%),
+    radial-gradient(ellipse at 82% 88%,rgba(115,96,72,.028),transparent 20%);
+  background-size:auto,auto,100% 100%,100% 100%,100% 100%;
+  border:1px solid rgba(199,189,174,.95);
+  border-radius:3px 5px 4px 3px;
+  box-shadow:0 15px 28px rgba(0,0,0,.24),0 3px 7px rgba(0,0,0,.11),inset 0 0 24px rgba(111,93,67,.035);
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.home-layout > .home-paper .home-category-card:nth-child(1){transform:rotate(-.28deg)}
+.home-layout > .home-paper .home-category-card:nth-child(2){transform:rotate(.34deg)}
+.home-layout > .home-paper .home-category-card:hover{
+  box-shadow:0 18px 32px rgba(0,0,0,.27),0 4px 8px rgba(0,0,0,.13),inset 0 0 24px rgba(111,93,67,.035);
+}
+.home-layout > .home-paper .home-category-card:nth-child(1):hover{transform:rotate(-.10deg) translateY(-2px)}
+.home-layout > .home-paper .home-category-card:nth-child(2):hover{transform:rotate(.14deg) translateY(-2px)}
+
+/* Lochung links – der dunkle Schiefer scheint optisch durch */
+.home-layout > .home-paper .home-category-card:before{
+  content:"";
+  position:absolute;
+  z-index:3;
+  left:7px;
+  top:13px;
+  bottom:13px;
+  width:18px;
+  pointer-events:none;
+  background:
+    radial-gradient(circle at 50% 9px,
+      #171918 0 4px,
+      rgba(83,76,66,.48) 4.2px 4.8px,
+      rgba(255,255,255,.62) 5px 5.5px,
+      transparent 5.7px) 0 0/18px 31px repeat-y;
+  filter:drop-shadow(1px 1px 1px rgba(0,0,0,.16));
+}
+
+/* leichte Papierfasern und ein kaum sichtbarer Knick */
+.home-layout > .home-paper .home-category-card:after{
+  content:"";
+  position:absolute;
+  z-index:0;
+  inset:0;
+  pointer-events:none;
+  border-radius:inherit;
+  background:
+    linear-gradient(162deg,transparent 0 69%,rgba(108,91,67,.035) 70%,transparent 71%),
+    linear-gradient(15deg,transparent 0 88%,rgba(255,255,255,.30) 89%,transparent 91%);
+  opacity:.8;
+}
+.home-category-card > *{position:relative;z-index:1}
+
+/* Klebeband etwas natürlicher, aber nicht dekorativer */
+.home-category-card .tape{
+  z-index:4;
+  width:98px;
+  height:28px;
+  top:-15px;
+  background:
+    linear-gradient(100deg,rgba(255,255,255,.18),transparent 38%,rgba(128,104,66,.07)),
+    rgba(217,199,160,.78);
+  border-left:1px solid rgba(154,130,91,.10);
+  border-right:1px solid rgba(154,130,91,.08);
+  box-shadow:0 2px 4px rgba(0,0,0,.13);
+  transform:translateX(-50%) rotate(-2.4deg);
+}
+.home-category-card:nth-child(2) .tape{transform:translateX(-50%) rotate(1.8deg)}
+
+/* Die drei neuen Rezepte bleiben im bisherigen Aufbau; nur das Papier wirkt weniger digital */
+.home-layout > .home-paper .home-recipe-list .recipe-card{
+  background-color:rgba(249,246,238,.98);
+  background-image:
+    repeating-linear-gradient(to bottom,transparent 0,transparent 29px,rgba(92,126,150,.050) 30px),
+    linear-gradient(142deg,transparent 0 86%,rgba(116,96,69,.030) 87%,transparent 89%);
+  border-color:rgba(200,190,175,.94);
+  border-radius:2px 4px 3px 2px;
+  box-shadow:0 9px 21px rgba(0,0,0,.20),inset 0 0 16px rgba(100,83,59,.025);
+}
+
+/* Rezept-Unterseiten: gleiche Struktur wie bisher, nur als glaubwürdigere Notizbuchseite */
+.recipe-paper{
+  position:relative;
+  isolation:isolate;
+  overflow:visible;
+  background-color:#fbf8ef;
+  background-image:
+    linear-gradient(90deg,transparent 0,transparent 42px,var(--paper-margin) 43px,transparent 44px),
+    repeating-linear-gradient(to bottom,transparent 0,transparent 31px,var(--paper-line) 32px),
+    linear-gradient(128deg,transparent 0 82%,rgba(112,93,67,.025) 83%,transparent 85%),
+    radial-gradient(ellipse at 13% 9%,rgba(106,87,61,.025),transparent 18%),
+    radial-gradient(ellipse at 86% 78%,rgba(106,87,61,.020),transparent 20%);
+  border-color:rgba(198,188,173,.95);
+  border-radius:3px 5px 4px 3px;
+  box-shadow:0 16px 34px rgba(0,0,0,.23),0 3px 9px rgba(0,0,0,.10),inset 0 0 28px rgba(110,91,66,.025);
+}
+.recipe-paper:before{
+  content:"";
+  position:absolute;
+  z-index:3;
+  left:7px;
+  top:18px;
+  bottom:18px;
+  width:18px;
+  pointer-events:none;
+  background:
+    radial-gradient(circle at 50% 9px,
+      #171918 0 3.8px,
+      rgba(83,76,66,.45) 4px 4.6px,
+      rgba(255,255,255,.58) 4.8px 5.3px,
+      transparent 5.5px) 0 0/18px 32px repeat-y;
+  filter:drop-shadow(1px 1px 1px rgba(0,0,0,.14));
+}
+.recipe-paper:after{
+  content:"";
+  position:absolute;
+  z-index:0;
+  inset:0;
+  pointer-events:none;
+  border-radius:inherit;
+  background:
+    linear-gradient(160deg,transparent 0 74%,rgba(103,84,61,.025) 75%,transparent 76%),
+    linear-gradient(16deg,transparent 0 91%,rgba(255,255,255,.24) 92%,transparent 94%);
+  opacity:.75;
+}
+.recipe-paper > *{position:relative;z-index:1}
+
+/* Bild und vorhandenes Klebeband nur minimal realistischer */
+.recipe-image{
+  box-shadow:0 7px 18px rgba(50,42,32,.09);
+}
+.recipe-image .photo-tape{
+  background:
+    linear-gradient(100deg,rgba(255,255,255,.17),transparent 40%,rgba(128,104,66,.06)),
+    rgba(217,199,160,.79);
+  box-shadow:0 2px 4px rgba(0,0,0,.12);
+}
+
+@media(max-width:780px){
+  .home-layout > .home-paper .home-category-card{
+    padding:34px 20px 26px 44px;
+    transform:none!important;
+  }
+  .recipe-paper:before{left:3px;width:16px;background-size:16px 32px}
+}
+
+@media print{
+  .recipe-paper:before,.recipe-paper:after{display:none!important}
+  .recipe-image{box-shadow:none}
 }

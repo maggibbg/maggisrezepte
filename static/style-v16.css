@@ -1414,3 +1414,89 @@ body{
   background-size:auto,auto,auto,auto,260px 260px,310px 310px,100% 100%;
   background-attachment:fixed;
 }
+
+/* =====================================================================
+   Version 16.1 – Kategorie-Unterseiten / Typografie-Korrektur
+   - lange Rezeptnamen bleiben vollständig in den Karten
+   - redundante kleine KOCHEN/BACKEN-Labels werden entfernt
+   ===================================================================== */
+
+/* Startseite: kleine graue Kategoriebezeichnung in den großen Zetteln ausblenden. */
+.home-category-card > .card-label{
+  display:none !important;
+}
+
+/* Kategorie-Unterseiten: das kleine graue „KOCHEN/BACKEN“ vor der Überschrift entfernen. */
+.category-page .section-heading > span{
+  display:none !important;
+}
+
+/* Kategorie-Unterseiten: Rezeptkarten bekommen genug Raum für den vollständigen Titel. */
+.category-page .home-recipe-list{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:20px;
+  align-items:stretch;
+}
+
+.category-page .home-recipe-list .recipe-card{
+  position:relative;
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:stretch;
+  gap:0 !important;
+  min-width:0;
+  height:100%;
+  padding:9px 9px 13px !important;
+}
+
+.category-page .home-recipe-list .thumb{
+  width:100% !important;
+  height:148px;
+  flex:0 0 148px;
+}
+
+.category-page .home-recipe-list .recipe-info{
+  width:100%;
+  min-width:0;
+  padding:9px 4px 20px;
+}
+
+.category-page .home-recipe-list .recipe-info h3{
+  margin:0 0 8px;
+  font-size:16px;
+  line-height:1.22;
+  white-space:normal !important;
+  overflow:visible !important;
+  text-overflow:clip !important;
+  overflow-wrap:anywhere;
+  hyphens:auto;
+  min-height:2.44em;
+}
+
+.category-page .home-recipe-list .recipe-info p{
+  margin-top:auto;
+}
+
+.category-page .home-recipe-list .arrow{
+  position:absolute;
+  right:13px;
+  bottom:10px;
+}
+
+@media(max-width:1080px) and (min-width:781px){
+  .category-page .home-recipe-list{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
+@media(max-width:780px){
+  .category-page .home-recipe-list{
+    grid-template-columns:1fr;
+  }
+  .category-page .home-recipe-list .thumb{
+    height:180px;
+    flex-basis:180px;
+  }
+}
+
